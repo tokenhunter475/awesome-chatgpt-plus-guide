@@ -1,25 +1,33 @@
-# Contributing
+# 参与贡献
 
-Contributions are welcome — especially real error cases, price changes, and corrections.
+欢迎贡献——尤其是真实报错案例、价格变动和纠错。
 
-## What to contribute
+## 可以贡献什么
 
-- **New error cases**: the exact error message, when it happens, and what fixed it. Real reports beat guesses.
-- **Price / policy updates**: OpenAI, Anthropic, virtual card providers, and top-up services change often. Include a source link.
-- **Corrections**: if something in this guide is wrong or outdated, open an issue or PR with the correction and a source.
+- **新报错案例**：准确的报错信息、发生场景、怎么解决的。真实报告胜过猜测。
+- **价格 / 政策更新**：OpenAI、Anthropic、虚拟卡平台、代充服务变动频繁，请附来源链接。
+- **纠错**：指南里有错误或过时内容，提 Issue 或 PR，附来源。
 
-## Ground rules
+## 规则
 
-1. **Facts over promotion.** This guide stays useful because it stays honest. Do not add affiliate links, referral codes, or promotional content for services you are affiliated with.
-2. **Cite sources.** Prices, policies, and dates must link to an official page or a dated announcement.
-3. **Real experience.** Error fixes should come from something you actually hit and resolved. Mark unverified tips as unverified.
-4. **Both languages.** If you edit `README.md`, mirror the change in `README.zh-CN.md` (or note in the PR that translation is needed).
-5. **No AI-generated filler.** Contributions that are obviously unedited LLM output will be closed.
+1. **事实优先，拒绝推广**。本指南的价值在于诚实。不要加推广链接、邀请码，不要为自己利益相关的服务写软文。
+2. **注明来源**。价格、政策、日期必须链接到官方页面或有时间标记的公告。
+3. **真实经历**。报错解决方法应来自你实际遇到并解决的问题；未验证的技巧要标注「未验证」。
+4. **全中文**。本仓库面向国内用户，所有文档使用中文。
+5. **拒绝 AI 灌水**。明显未经人工修改的 LLM 生成内容会被直接关闭。
 
-## How to contribute
+## 新增文章规范
 
-1. Fork the repository.
-2. Make your change on a branch.
-3. Open a pull request describing what changed and why, with sources.
+1. 放进 `docs/` 下对应分类目录：`01-chongzhi-jiaocheng`（充值教程）、`02-changjian-baocuo`（常见报错）、`03-shiyong-zhinan`（使用指南）。
+2. 文件名用「目标搜索词的拼音 + 年份」，如 `chatgpt-plus-chongzhi-jiaocheng-2026.md`——让用户搜得到。
+3. 文首带 SEO frontmatter：`title`（含目标搜索词）、`description`（150 字内，含关键词）、`keywords`、`updated`。
+4. 标题和小标题用用户真实搜索的写法（如「付款被拒」而不是「支付异常处理」）。
+5. 文末加「相关阅读」，互链至少 2 篇相关文章，并在 `docs/README.md` 和主 `README.md` 的目录里登记。
 
-For larger suggestions (new sections, restructuring), open an issue first.
+## 流程
+
+1. Fork 本仓库。
+2. 在分支上修改。
+3. 提 PR，说明改了什么、为什么，附来源。
+
+大的改动（新章节、结构调整）请先开 Issue 讨论。
