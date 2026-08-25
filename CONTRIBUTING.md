@@ -13,16 +13,16 @@
 1. **事实优先，拒绝推广**。本指南的价值在于诚实。不要加推广链接、邀请码，不要为自己利益相关的服务写软文。
 2. **注明来源**。价格、政策、日期必须链接到官方页面或有时间标记的公告。
 3. **真实经历**。报错解决方法应来自你实际遇到并解决的问题；未验证的技巧要标注「未验证」。
-4. **全中文**。本仓库面向国内用户，所有文档使用中文。
+4. **正文中文、路径英文**。本仓库面向国内用户，正文全中文；目录名和文件名用规范英文 slug（见下方新增文章规范）。
 5. **拒绝 AI 灌水**。明显未经人工修改的 LLM 生成内容会被直接关闭。
 
 ## 新增文章规范
 
-1. 放进 `docs/` 下对应分类目录：`01-chongzhi-jiaocheng`（充值教程）、`02-changjian-baocuo`（常见报错）、`03-shiyong-zhinan`（使用指南）。
-2. 文件名用「目标搜索词的拼音 + 年份」，如 `chatgpt-plus-chongzhi-jiaocheng-2026.md`——让用户搜得到。
+1. 放进 `docs/` 下对应分类目录：`00-ai-fundamentals`（AI 基础）、`01-models-and-tools`（模型与工具）、`02-chatgpt-getting-started`（ChatGPT 上手）、`03-codex-tutorials`（Codex 教程）、`04-multimodal-creation`（多模态创作）、`05-ai-toolbox`（AI 工具百科）、`06-api-and-relays`（API 与中转）。充值教程、常见报错两卷预留中。
+2. 文件名用「目标关键词的英文 slug + 年份」（全小写、连字符分隔），如 `codex-cli-tutorial-2026.md`——目录和文件名保持规范英文以利 SEO 与聚合站抓取，正文使用中文。
 3. 文首带 SEO frontmatter：`title`（含目标搜索词）、`description`（150 字内，含关键词）、`keywords`、`updated`。
 4. 标题和小标题用用户真实搜索的写法（如「付款被拒」而不是「支付异常处理」）。
-5. 文末加「相关阅读」，互链至少 2 篇相关文章，并在 `docs/README.md` 和主 `README.md` 的目录里登记。
+5. 文末加「相关阅读」，互链至少 2 篇相关文章（相对路径），并在 `docs/README.md` 和主 `README.md` 的目录里登记。
 
 ## 流程
 

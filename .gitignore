@@ -1,0 +1,8 @@
+# 内部工具与报告,不入公开仓库
+audit_seo.py
+seo-audit-report.md
+
+# 系统与临时
+.DS_Store
+Thumbs.db
+*.log
