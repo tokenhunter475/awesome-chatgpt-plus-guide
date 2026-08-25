@@ -6,3 +6,5 @@ seo-audit-report.md
 .DS_Store
 Thumbs.db
 *.log
+*.txt.tmp
+hits.txt
