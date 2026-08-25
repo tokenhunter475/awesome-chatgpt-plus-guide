@@ -202,9 +202,17 @@
 | [AI 的自我修养](11-ai-curiosities/ai-self-reflection-2026.md) | 真反思与表演性反思的区分 |
 | [AI 消费的穷富思维](11-ai-curiosities/ai-spending-mindset-2026.md) | 花在 AI 上的钱怎么算 |
 
+## 12 充值教程 `recharge-guides/` —— 支线：交学费
+
+订阅开通的实操路径：怎么付钱、怎么避坑、怎么判断该不该花。
+
+| 文章 | 讲什么 |
+|---|---|
+| [ChatGPT Plus 充值教程（2026 国内版）：4 条路径实测对比](12-recharge-guides/chatgpt-plus-recharge-guide-2026.md) | Stripe 风控机制、四路径横评、避坑清单 |
+
 ## 整理中
 
-- 充值教程（Plus/Pro 开通相关）
+- 充值教程（Pro/Claude 订阅、续费与退款细则）
 - 常见报错（付款被拒、状态异常等）
 
 ---

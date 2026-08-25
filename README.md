@@ -68,9 +68,13 @@
 
 [钱的数字](docs/11-ai-curiosities/ai-money-numbers-2026.md) · [广告的代价](docs/11-ai-curiosities/chatgpt-ads-and-the-price-of-free-2026.md) · [迪士尼分手信](docs/11-ai-curiosities/openai-disney-breakup-story-2026.md) · [蒸馏风波](docs/11-ai-curiosities/ai-distillation-drama-2026.md) · [和AI吵架](docs/11-ai-curiosities/fighting-with-ai-coding-tools-2026.md) · [都市传说鉴定](docs/11-ai-curiosities/ai-urban-legends-fact-check-2026.md) · [命名玄学](docs/11-ai-curiosities/ai-naming-philosophy-2026.md) · [手机写代码](docs/11-ai-curiosities/mobile-coding-real-story-2026.md) · [术语大战](docs/11-ai-curiosities/ai-terminology-wars-2026.md) · [工具段位江湖](docs/11-ai-curiosities/ai-coding-tools-rankings-lore-2026.md) · [回答为啥不同](docs/11-ai-curiosities/why-ai-answers-differ-2026.md) · [AI教你用AI](docs/11-ai-curiosities/ai-improving-ai-tricks-2026.md) · [AI拍马屁](docs/11-ai-curiosities/ai-sycophancy-problem-2026.md) · [AI时间观](docs/11-ai-curiosities/ai-sense-of-time-2026.md) · [废话文学](docs/11-ai-curiosities/ai-filler-words-anatomy-2026.md) · [2026年鉴](docs/11-ai-curiosities/ai-2026-timeline-yearbook-2026.md) · [冷知识彩蛋](docs/11-ai-curiosities/ai-fun-facts-2026.md) · [恐怖谷时刻](docs/11-ai-curiosities/ai-uncanny-valley-moments-2026.md) · [巴甫洛夫实验](docs/11-ai-curiosities/ai-pavlovian-users-2026.md) · [AI自我修养](docs/11-ai-curiosities/ai-self-reflection-2026.md) · [消费穷富思维](docs/11-ai-curiosities/ai-spending-mindset-2026.md)
 
+### 💳 12 充值教程（1 篇，支线·交学费）
+
+[Plus 国内充值 4 路径对比](docs/12-recharge-guides/chatgpt-plus-recharge-guide-2026.md)
+
 ### 整理中
 
-充值教程、常见报错两个分类后续上线。
+常见报错分类后续上线。
 
 ## 订阅方案速查
 
@@ -94,6 +98,7 @@
 
 | 日期 | 更新 |
 |---|---|
+| 2026-08-25 | 充值教程卷开放（总 115 篇）：首发《ChatGPT Plus 充值教程（2026 国内版）：4 条路径实测对比》——Stripe 风控机制解释、境外卡/礼品卡/虚拟卡/代充横评、避坑清单。 |
 | 2026-08-24 | 支线「猎奇观察室」21 篇上线（总 114 篇）：大钱大瓜（钱的数字/迪士尼分手信/蒸馏风波）、行为观察（吵架合集/谄媚/时间观/废话文学）、冷知识（命名玄学/彩蛋/术语大战）、思维向（恐怖谷/巴甫洛夫/自我修养/消费观）。 |
 | 2026-08-20 | 第三批 50 篇上线（总 93 篇）：新增行业风向卷 12 篇、ChatGPT 深水区卷 10 篇、Codex 进阶卷 15 篇、人人 AI 卷 13 篇。 |
 | 2026-08-20 | 目录与文件名全面改为规范英文 slug（正文保持中文）：`00-ai-fundamentals` 至 `06-api-and-relays` 七卷，43 篇文章同步重命名并更新全站链接。 |
