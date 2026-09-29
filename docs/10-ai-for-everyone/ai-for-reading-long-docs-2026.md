@@ -74,3 +74,8 @@ A: 支持多模态的产品可以读扫描件,但识别精度随扫描质量下�
 - [AI 数据分析（2026）](ai-for-data-analysis-2026.md)
 - [提示词入门（2026）](../02-chatgpt-getting-started/prompt-engineering-basics-2026.md)
 - [大模型是什么？上下文与幻觉（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)

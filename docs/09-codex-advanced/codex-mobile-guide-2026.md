@@ -31,7 +31,7 @@ ChatGPT App 的 Codex 入口可以发起云端任务:描述目标,提交,任务�
 
 ## 姿势二:桌面会话,手机接力
 
-CLI/桌面端开的任务,在手机上接着看进度、补两句反馈——会话云端同步,设备只是窗口。典型时间线:工位上开一个重构任务 → 通勤路上手机看它跑到哪 → 到家在笔记本上验收。**多设备连续性**是这套体验的核心价值(同类能力也是 Claude Code 作者点名的被低估功能,见[15 功能篇](../07-industry-watch/claude-code-underrated-features-2026.md))。
+CLI/桌面端开的任务,在手机上接着看进度、补两句反馈——会话云端同步,设备只是窗口。典型时间线:工位上开一个重构任务 → 通勤路上手机看它跑到哪 → 到家在笔记本上验收。**多设备连续性**是这套体验的核心价值(同类能力也是 Claude Code 作者点名的被低估功能,见[15 功能篇](../../archive/07-industry-watch/claude-code-underrated-features-2026.md))。
 
 ## 姿势三:碎片时间的任务管理
 
@@ -61,4 +61,9 @@ A: 不会——它是「任务管理的移动化」,不是「开发的移动化�
 
 - [Codex 网页版与云端任务（2026）](../03-codex-tutorials/codex-cloud-tasks-2026.md)
 - [Codex 桌面版实测（2026）](codex-desktop-app-review-2026.md)
-- [Claude Code 官方作者亲列的 15 个被低估功能（2026）](../07-industry-watch/claude-code-underrated-features-2026.md)
+- [Claude Code 官方作者亲列的 15 个被低估功能（2026）](../../archive/07-industry-watch/claude-code-underrated-features-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

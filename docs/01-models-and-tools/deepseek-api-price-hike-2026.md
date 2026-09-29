@@ -96,3 +96,8 @@ A: 不受 API 定价影响——自己部署只花硬件和运维成本，这正
 - [DeepSeek 是什么？为什么它成了 AI 行业的价格破坏者（2026）](what-is-deepseek-2026.md)
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
 - [AI 编程工具对比：Codex vs Claude Code vs Cursor vs Gemini（2026）](ai-coding-tools-comparison-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools)

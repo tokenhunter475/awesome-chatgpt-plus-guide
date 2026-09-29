@@ -69,3 +69,8 @@ A: 能。保持正常使用、稳定环境,多数账号状态会随时间恢复;
 - [ChatGPT Plus 显示 Free？会员状态异常排查（2026）](chatgpt-plus-showing-free-fix-2026.md)
 - [ChatGPT 新手常见问题：登录、网络、额度、隐私（2026）](../02-chatgpt-getting-started/chatgpt-common-issues-2026.md)
 - [大模型是什么？为什么会聊久了变笨（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

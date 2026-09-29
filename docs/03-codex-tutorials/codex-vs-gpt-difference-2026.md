@@ -8,12 +8,12 @@ keywords:
   - Codex 免费吗
   - Codex 额度
   - GPT 模型
-updated: 2026-08-20
+updated: 2026-09-29
 ---
 
 # Codex 和 GPT 的区别是什么？Codex、ChatGPT、GPT 模型关系一次讲清（2026）
 
-> 档位与模型口径以 2026 年 8 月 OpenAI 官方说明为准，本文持续更新。
+> 档位与模型口径以 2026 年 9 月 OpenAI 官方说明为准，本文持续更新。
 
 搜「Codex 和 GPT 的区别」的人，多数是被三个名字绕晕了：Codex、ChatGPT、GPT。它们不是并列的三个产品，而是三层东西——工具、账号体系、模型。搞清这三层，所有关于 Codex 的疑问都能对上号。
 
@@ -33,7 +33,7 @@ updated: 2026-08-20
 
 说白了：**ChatGPT 是账号和模型体系，Codex 是跑在这套体系上的编程工具，GPT 是两者共用的发动机。**
 
-## 各档位在 Codex 里的差异（2026 年 8 月口径）
+## 各档位在 Codex 里的差异（2026 年 9 月口径）
 
 | ChatGPT 档位 | 能用 Codex 吗 | 可用模型 | 额度特点 |
 |---|---|---|---|
@@ -41,6 +41,8 @@ updated: 2026-08-20
 | Go（官方 $8/月） | 能 | 轻量档 | 比免费版高，仍有限，不能加购 |
 | Plus（官方 $20/月） | 能 | 旗舰档 + 全部轻量档 | 日常开发够用，可加购额度 |
 | Pro（官方 $100/$200 月） | 能 | 全部档位 | 分别约为 Plus 的 5 倍 / 20 倍额度 |
+
+> Pro 20X（$200 档）自 2026-09-10 起 OpenAI 暂停新购，只能续费或到期回归；Pro 5X 正常。
 
 两个容易踩的认知坑：
 
@@ -104,3 +106,8 @@ A: 2026 年 8 月 31 日起，GPT-5.4 系列从 Codex 下线，由新一代档�
 
 - [Codex CLI 使用教程：安装、登录、常用命令（2026）](codex-cli-tutorial-2026.md)
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](codex-usage-limits-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials)

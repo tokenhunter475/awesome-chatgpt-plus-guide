@@ -55,7 +55,7 @@ A: Codex 桌面版的 Automations,官方模板一键启用,自定义任务按提
 
 Q: 电脑关了任务还跑吗?
 
-A: 桌面版 Automations 依赖本地应用;要「关机也跑」的云端值班形态,看 Claude Code 的 Routines(Anthropic 托管运行,见[对比](../07-industry-watch/claude-code-routines-2026.md))——两边路线不同。
+A: 桌面版 Automations 依赖本地应用;要「关机也跑」的云端值班形态,看 Claude Code 的 Routines(Anthropic 托管运行,见[对比](../../archive/07-industry-watch/claude-code-routines-2026.md))——两边路线不同。
 
 Q: 任务失败了会通知吗?
 
@@ -70,3 +70,8 @@ A: 桌面版曾对 Free/Go 限时开放,窗口随时调整,以产品内实际权
 - [Codex 桌面版实测（2026）](codex-desktop-app-review-2026.md)
 - [Codex 工作流实战：从需求到上线（2026）](../03-codex-tutorials/codex-workflow-guide-2026.md)
 - [Codex 用量上限说明（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

@@ -78,3 +78,8 @@ A: 灰度周期通常按周计,无官方时间表。期间 Terra/Luna 或 GPT-5.
 - [GPT-5.6 模型档位解读：Sol、Terra、Luna（2026）](../01-models-and-tools/gpt-5-6-sol-terra-luna-explained-2026.md)
 - [GPT-5.6 vs GPT-5.5：实测数据说话（2026）](gpt-5-6-vs-gpt-5-5-2026.md)
 - [Codex CLI 使用教程：安装、登录、常用命令（2026）](../03-codex-tutorials/codex-cli-tutorial-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

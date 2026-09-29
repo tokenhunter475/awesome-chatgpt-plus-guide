@@ -86,3 +86,8 @@ A: 95% 的用户 Plus 够用；Pro 的价值在重度 Codex 使用、Deep Resear
 - [GPT-5.6 模型档位解读：Luna、Sol、Terra 各是什么（2026）](gpt-5-6-sol-terra-luna-explained-2026.md)
 - [ChatGPT 套餐怎么选：免费、Go、Plus、Pro 对比（2026）](../02-chatgpt-getting-started/chatgpt-plans-comparison-2026.md)
 - [三大模型家族对比：GPT vs DeepSeek vs Claude（2026）](gpt-vs-deepseek-vs-claude-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools)

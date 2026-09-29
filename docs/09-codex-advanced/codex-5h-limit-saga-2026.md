@@ -66,3 +66,8 @@ A: 等窗口滚动恢复(通常几小时)、买 Credits、或升级档位——�
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
 - [Codex 增长时间线（2026）](codex-growth-timeline-2026.md)
 - [Codex 额度不够用？三条路算账（2026）](../08-chatgpt-deep-dive/codex-quota-supplement-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

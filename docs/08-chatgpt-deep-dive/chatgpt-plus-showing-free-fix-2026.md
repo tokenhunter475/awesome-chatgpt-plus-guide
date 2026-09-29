@@ -79,3 +79,8 @@ A: 显示类问题通常几分钟到几小时;支付类问题处理完才恢复;
 - [ChatGPT 变笨了？「降智」的原因和自救指南（2026）](chatgpt-degraded-what-to-do-2026.md)
 - [ChatGPT 套餐怎么选：免费、Go、Plus、Pro 对比（2026）](../02-chatgpt-getting-started/chatgpt-plans-comparison-2026.md)
 - [ChatGPT 新手常见问题（2026）](../02-chatgpt-getting-started/chatgpt-common-issues-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

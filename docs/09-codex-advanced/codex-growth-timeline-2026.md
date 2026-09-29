@@ -66,4 +66,9 @@ A: 生态越大,工具链、技能库、社区内容越厚——先发者会越�
 
 - [Codex 5 小时限额风波：取消又恢复的十八天（2026）](codex-5h-limit-saga-2026.md)
 - [Codex 入门：五种形态、五大场景（2026）](../03-codex-tutorials/codex-getting-started-2026.md)
-- [OpenAI 一周砍掉三条产品线：资源都去哪了（2026）](../07-industry-watch/openai-ipo-product-cuts-2026.md)
+- [OpenAI 一周砍掉三条产品线：资源都去哪了（2026）](../../archive/07-industry-watch/openai-ipo-product-cuts-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

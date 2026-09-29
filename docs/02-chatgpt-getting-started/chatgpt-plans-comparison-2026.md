@@ -98,3 +98,8 @@ A: 免费用轻量档模型（Terra）且额度有限、不可加购；Plus 解�
 - [ChatGPT 是什么？产品、模型、套餐三层一次分清（2026）](../01-models-and-tools/what-is-chatgpt-2026.md)
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
 - [GPT-5.6 模型档位解读：Sol、Terra、Luna（2026）](../01-models-and-tools/gpt-5-6-sol-terra-luna-explained-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started)

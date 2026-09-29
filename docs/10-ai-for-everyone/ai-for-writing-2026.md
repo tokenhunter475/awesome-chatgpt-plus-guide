@@ -78,3 +78,8 @@ A: AI 生成的内容版权归属各平台条款不同,商用前读协议;别让
 - [提示词入门：怎么问才能得到好答案（2026）](../02-chatgpt-getting-started/prompt-engineering-basics-2026.md)
 - [AI 写作之外：自媒体内容工作流（2026）](ai-for-content-creators-2026.md)
 - [ChatGPT 使用入门（2026）](../02-chatgpt-getting-started/chatgpt-beginners-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)

@@ -71,3 +71,8 @@ API 按 token 计费（token 是什么见[大模型原理](../00-ai-fundamentals
 - [API 额度 vs 订阅：两套钱包别充错（2026）](api-credits-vs-subscription-2026.md)
 - [API 中转站是什么、怎么判断靠不靠谱（2026）](what-is-api-relay-2026.md)
 - [大模型是什么？AI 为什么会说话、写代码（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **订阅和 API 是两套钱包。** 要用 ChatGPT 和 Codex 的套餐额度，开的是 Plus / Pro 订阅。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays) · [API 额度 vs 订阅：别充错](https://www.payforchat.com/articles/chatgpt-api-credit-recharge-vs-subscription-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays)

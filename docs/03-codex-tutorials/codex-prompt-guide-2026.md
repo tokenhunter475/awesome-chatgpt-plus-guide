@@ -118,3 +118,8 @@ A: 适用。任务拆解、上下文、验收标准是所有编程 Agent 的通�
 - [Codex 工作流实战：从需求到上线的完整流程（2026）](codex-workflow-guide-2026.md)
 - [Codex 记忆与配置：AGENTS.md、config.toml、会话管理（2026）](codex-memory-and-config-2026.md)
 - [提示词入门：怎么向 AI 提问才能得到好答案（2026）](../02-chatgpt-getting-started/prompt-engineering-basics-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials)

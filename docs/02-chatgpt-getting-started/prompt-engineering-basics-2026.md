@@ -105,3 +105,8 @@ A: 有，核心是给上下文（框架、版本、参考代码）和验收标�
 - [大模型是什么？AI 为什么会说话、写代码（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
 - [ChatGPT 使用入门：界面、对话、文件上传（2026）](chatgpt-beginners-guide-2026.md)
 - [Codex 提示词实战：任务描述、上下文、分步提交（2026）](../03-codex-tutorials/codex-prompt-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started)

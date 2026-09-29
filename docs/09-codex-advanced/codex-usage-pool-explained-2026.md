@@ -68,3 +68,8 @@ A: 先 `/status` 分清是窗口还是周上限(处理见[用量说明](../03-co
 - [ChatGPT Work 是什么（2026）](../08-chatgpt-deep-dive/chatgpt-work-explained-2026.md)
 - [Codex 用量上限说明（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
 - [Codex 5 小时限额风波（2026）](codex-5h-limit-saga-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

@@ -72,3 +72,8 @@ A: 第三层——多数人没做过,而它的收益(少返工)立竿见影。
 - [Codex 工作流实战（2026）](../03-codex-tutorials/codex-workflow-guide-2026.md)
 - [Codex 代码审查实战（2026）](../03-codex-tutorials/codex-code-review-2026.md)
 - [AI 与 Agent 怎么选（2026）](../00-ai-fundamentals/ai-vs-agent-how-to-choose-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)

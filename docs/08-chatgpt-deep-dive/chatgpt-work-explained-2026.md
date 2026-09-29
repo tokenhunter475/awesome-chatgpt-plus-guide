@@ -61,7 +61,7 @@ A: 它是 ChatGPT 产品体系内的功能,按账号档位给权限和额度,不
 
 Q: 和微软 Copilot 里接 Claude 那个 Cowork 什么关系?
 
-A: 同赛道竞品——都是「办公智能体」。OpenAI 的 Work 在自家生态里,微软的 Copilot Cowork 走本地运行路线(见[微软合作篇](../07-industry-watch/microsoft-copilot-anthropic-2026.md))。AI 办公的格局在快速变化,按需选用。
+A: 同赛道竞品——都是「办公智能体」。OpenAI 的 Work 在自家生态里,微软的 Copilot Cowork 走本地运行路线(见[微软合作篇](../../archive/07-industry-watch/microsoft-copilot-anthropic-2026.md))。AI 办公的格局在快速变化,按需选用。
 
 Q: 旧版独立 Codex App 还能用吗?
 
@@ -76,3 +76,8 @@ A: 执行中的消耗已发生。省额度的方法和 Codex 一致:材料给全
 - [AI Agent 是什么？和普通 AI 对话的区别（2026）](../00-ai-fundamentals/what-is-ai-agent-2026.md)
 - [Codex 网页版与云端任务（2026）](../03-codex-tutorials/codex-cloud-tasks-2026.md)
 - [智能体平台入门：不写代码搭 AI 应用（2026）](../05-ai-toolbox/agent-platforms-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

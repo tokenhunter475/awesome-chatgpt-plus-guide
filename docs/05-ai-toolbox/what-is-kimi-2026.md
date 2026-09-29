@@ -81,3 +81,8 @@ A: 极限量化版理论上 24GB 显卡 + 256GB 内存可跑（约 10 tokens/s�
 - [豆包是什么？字节跳动的 AI 助手适合谁（2026）](what-is-doubao-2026.md)
 - [开源模型 vs 闭源模型：区别与怎么选（2026）](../01-models-and-tools/open-source-vs-closed-source-models-2026.md)
 - [三大模型家族对比：GPT vs DeepSeek vs Claude（2026）](../01-models-and-tools/gpt-vs-deepseek-vs-claude-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=05-ai-toolbox) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=05-ai-toolbox)

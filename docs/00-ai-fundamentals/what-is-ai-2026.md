@@ -86,3 +86,8 @@ A: 使用层面零基础，会打字就行；理解原理需要高中数学；�
 - [大模型是什么？AI 为什么会说话、写代码（2026）](what-is-llm-2026.md)
 - [AI Agent 是什么？和普通 AI 对话有什么区别（2026）](what-is-ai-agent-2026.md)
 - [AI 发展历程：70 年三起两落，到今天的 Agent 时代（2026）](evolution-of-ai-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals)

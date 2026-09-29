@@ -96,7 +96,7 @@
 - [ChatGPT Plus 续费指南](https://www.payforchat.com/articles/chatgpt-plus-renewal-guide-2026)
 - [Plus 和 Pro 的区别](https://www.payforchat.com/articles/chatgpt-plus-vs-pro-comparison) · [Team 和 Plus 的区别](https://www.payforchat.com/articles/chatgpt-team-vs-plus-2026)
 - [GPT 会员等级全解：Free / Go / Plus / Pro / Business](https://www.payforchat.com/articles/gpt-membership-tiers-guide-2026)
-- 仓库 [docs/](docs/) 里另有 116 篇中文教程，从 AI 基础、ChatGPT 上手到 Codex 进阶，和充值无关。
+- 仓库 [docs/](docs/) 里另有 82 篇中文教程，从 AI 基础、ChatGPT 上手到 Codex 进阶，和充值无关。
 
 ## 关于本仓库
 

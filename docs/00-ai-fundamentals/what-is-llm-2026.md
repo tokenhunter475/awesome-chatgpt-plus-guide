@@ -89,3 +89,8 @@ A: 2026 年的趋势是两条腿：模型本身继续变强（推理、长任务
 - [AI 是什么？人工智能、机器学习、大模型一次讲清（2026）](what-is-ai-2026.md)
 - [AI Agent 是什么？和普通 AI 对话有什么区别（2026）](what-is-ai-agent-2026.md)
 - [提示词入门：怎么向 AI 提问才能得到好答案（2026）](../02-chatgpt-getting-started/prompt-engineering-basics-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals)

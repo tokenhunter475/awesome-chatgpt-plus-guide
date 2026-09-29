@@ -83,3 +83,8 @@ A: 「上线的第二天回来看一眼账单和日志」——绝大多数灾�
 - [API 中转站是什么、怎么判断靠不靠谱（2026）](what-is-api-relay-2026.md)
 - [用 AI 会泄露隐私吗？数据安全指南（2026）](../00-ai-fundamentals/ai-data-security-2026.md)
 - [虚拟卡兴衰史：一代工具的谢幕（2026）](rise-and-fall-of-virtual-cards-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **订阅和 API 是两套钱包。** 要用 ChatGPT 和 Codex 的套餐额度，开的是 Plus / Pro 订阅。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays) · [API 额度 vs 订阅：别充错](https://www.payforchat.com/articles/chatgpt-api-credit-recharge-vs-subscription-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays)

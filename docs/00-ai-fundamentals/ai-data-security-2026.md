@@ -84,3 +84,8 @@ A: Codex 在你的授权范围内读取文件并在沙盒执行命令，权限�
 - [AI 是什么？人工智能、机器学习、大模型一次讲清（2026）](what-is-ai-2026.md)
 - [大模型是什么？AI 为什么会说话、写代码（2026）](what-is-llm-2026.md)
 - [ChatGPT 新手常见问题：登录、网络、额度、隐私（2026）](../02-chatgpt-getting-started/chatgpt-common-issues-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=00-ai-fundamentals)

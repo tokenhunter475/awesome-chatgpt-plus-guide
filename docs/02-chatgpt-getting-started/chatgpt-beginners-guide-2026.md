@@ -8,12 +8,12 @@ keywords:
   - ChatGPT 上传文件
   - ChatGPT 界面
   - ChatGPT 功能
-updated: 2026-08-20
+updated: 2026-09-29
 ---
 
 # ChatGPT 使用入门：界面、对话、文件上传、常用设置（2026）
 
-> 界面细节随版本更新略有差异，以产品内实际显示为准；本文 2026 年 8 月更新。
+> 界面细节随版本更新略有差异，以产品内实际显示为准；本文 2026 年 9 月核对。
 
 注册完账号，面对对话框很多人只会「你好，帮我写个东西」——然后得出「AI 也就这样」的结论。这篇讲界面功能怎么用、以及把 ChatGPT 用出效率的正确姿势。
 
@@ -27,7 +27,7 @@ updated: 2026-08-20
 
 **对话框**：主战场。支持文字、粘贴图片、拖拽文件。Shift+Enter 换行，Enter 发送。
 
-**模型选择器**：输入框上方的模型名。免费账号默认基础模型（快速回答用 GPT-5.5 Instant，复杂问题自动升级）；付费账号可手动选推理档位（GPT-5.6 Sol 的 Medium/High，档位解释见 [GPT-5.6 档位解读](../01-models-and-tools/gpt-5-6-sol-terra-luna-explained-2026.md)）。原则：简单任务别手动拉高推理档，浪费额度。
+**模型选择器**：输入框上方的模型名。免费账号默认基础模型（具体型号以产品内显示为准，复杂问题自动升级）；付费账号可手动选推理档位（GPT-5.6 Sol 的 Medium/High，档位解释见 [GPT-5.6 档位解读](../01-models-and-tools/gpt-5-6-sol-terra-luna-explained-2026.md)）。原则：简单任务别手动拉高推理档，浪费额度。
 
 **历史会话（侧边栏）**：每个会话保留完整上下文。实用技巧——按主题开新会话，不要在一个会话里从写周报聊到写代码，上下文互相污染，两边质量都下降。
 
@@ -89,3 +89,8 @@ A: 日常任务差距不大；专业术语密集的任务（医学、法律、�
 - [提示词入门：怎么向 AI 提问才能得到好答案（2026）](prompt-engineering-basics-2026.md)
 - [ChatGPT 套餐怎么选：免费、Go、Plus、Pro 对比（2026）](chatgpt-plans-comparison-2026.md)
 - [ChatGPT 新手常见问题：登录、网络、额度、隐私（2026）](chatgpt-common-issues-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started)

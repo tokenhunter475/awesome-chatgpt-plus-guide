@@ -88,3 +88,8 @@ A: 取决于模型规模和并发需求：从租用云端 GPU（每月数千元�
 - [DeepSeek 是什么？为什么它成了 AI 行业的价格破坏者（2026）](what-is-deepseek-2026.md)
 - [三大模型家族对比：GPT vs DeepSeek vs Claude（2026）](gpt-vs-deepseek-vs-claude-2026.md)
 - [用 AI 会泄露隐私吗？数据安全与账号保护指南（2026）](../00-ai-fundamentals/ai-data-security-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools)

@@ -88,3 +88,8 @@ A: 会。所以选「生态」比选「当期最强」更保值：账号体系�
 - [ChatGPT 是什么？产品、模型、套餐三层一次分清（2026）](what-is-chatgpt-2026.md)
 - [DeepSeek 是什么？为什么它成了 AI 行业的价格破坏者（2026）](what-is-deepseek-2026.md)
 - [Claude 是什么？Claude 模型与 Claude Code 的关系（2026）](claude-and-claude-code-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=01-models-and-tools)

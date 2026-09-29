@@ -69,6 +69,11 @@ A: 免费版有广告,Plus 免广告。在意沉浸体验的话,这也是一项�
 
 ## 相关阅读
 
-- [ChatGPT 免费版无限对话 + Luna 上线（2026）](../07-industry-watch/chatgpt-free-unlimited-luna-2026.md)
+- [ChatGPT 免费版无限对话 + Luna 上线（2026）](../../archive/07-industry-watch/chatgpt-free-unlimited-luna-2026.md)
 - [ChatGPT 套餐怎么选：免费、Go、Plus、Pro 对比（2026）](../02-chatgpt-getting-started/chatgpt-plans-comparison-2026.md)
 - [GPT-5.6 vs GPT-5.5：实测数据说话（2026）](gpt-5-6-vs-gpt-5-5-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

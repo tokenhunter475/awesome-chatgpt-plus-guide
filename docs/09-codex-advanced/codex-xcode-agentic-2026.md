@@ -36,7 +36,7 @@ Apple 高管 Susan Prescott 的官方口径:「将行业领先的技术直接交
 
 ## 两个值得琢磨的选择
 
-**为什么不站队?** 微软把 Claude 装进 Copilot(见[那篇](../07-industry-watch/microsoft-copilot-anthropic-2026.md)),Apple 直接双开。大平台的共识成型:**模型是流动的,入口和生态才是自己的**。对开发者是好事——工具选型权留在了你手里。
+**为什么不站队?** 微软把 Claude 装进 Copilot(见[那篇](../../archive/07-industry-watch/microsoft-copilot-anthropic-2026.md)),Apple 直接双开。大平台的共识成型:**模型是流动的,入口和生态才是自己的**。对开发者是好事——工具选型权留在了你手里。
 
 **为什么是 MCP?** Apple 通过 MCP 支持「任何兼容代理」,等于给行业标准盖了章。MCP 之于 AI 工具,正在变成 USB 接口之于外设——谁都可以做设备,只要插得上。今后评估任何 AI 编程工具,「支不支持 MCP」会像「有没有 API」一样基础。
 
@@ -67,5 +67,10 @@ A: 代理的账号体系跟各自产品走(Codex 用 ChatGPT 账号,Claude Agent
 ## 相关阅读
 
 - [Codex IDE 集成：VS Code、Cursor、JetBrains（2026）](../03-codex-tutorials/codex-ide-integration-2026.md)
-- [微软把 Claude 装进 Copilot（2026）](../07-industry-watch/microsoft-copilot-anthropic-2026.md)
+- [微软把 Claude 装进 Copilot（2026）](../../archive/07-industry-watch/microsoft-copilot-anthropic-2026.md)
 - [AI 编程工具对比：Codex vs Claude Code vs Cursor vs Gemini（2026）](../01-models-and-tools/ai-coding-tools-comparison-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

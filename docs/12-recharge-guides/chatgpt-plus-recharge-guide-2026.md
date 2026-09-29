@@ -8,12 +8,12 @@ keywords:
   - 微信支付 ChatGPT
   - 支付宝充值 ChatGPT
   - ChatGPT 代充
-updated: 2026-08-25
+updated: 2026-09-29
 ---
 
 # ChatGPT Plus 充值教程（2026 国内版）：支付宝/微信 4 条路径实测对比
 
-> 价格与流程以各平台实时页面为准（OpenAI 官方价 $20/月，2026 年 8 月口径）；本文更新于 2026 年 8 月。
+> 价格与流程以各平台实时页面为准（OpenAI 官方价 $20/月）；本文 2026 年 9 月核对。
 
 ChatGPT Plus 充值难，难的不是步骤，是路径。翻遍教程还是付不了款的人，多半是走了已经失效的路：2024 年那批「办张虚拟卡三步开通」的教程已经作废——头部虚拟卡平台 2025 年 7 月起陆续停运（经过见[虚拟卡兴衰史](../06-api-and-relays/rise-and-fall-of-virtual-cards-2026.md)）。2026 年还走得通的路就四条，各有各的适用人群，没有一条对所有人最优。
 
@@ -102,7 +102,7 @@ OpenAI 的收银台走 Stripe。支付请求发出去，Stripe 会做三件事�
 - **有海外银行账户**：直接路径 1，官方通道没有中间成本。
 - **有多币种消费需求的商务用户**：合规的海外银行账户比任何代充都稳，一次办理长期受益。
 - **企业批量采购**：找 OpenAI 的企业渠道（Team/Enterprise），别按个位数账号折腾代充。
-- **只是想体验一下、预算极紧**：免费版 2026 年已经放开无限对话（见[免费版变化解读](../07-industry-watch/chatgpt-free-unlimited-luna-2026.md)），先确认付费档位解决了你真实遇到的瓶颈再掏钱。
+- **只是想体验一下、预算极紧**：免费版 2026 年已经放开无限对话（见[免费版变化解读](../../archive/07-industry-watch/chatgpt-free-unlimited-luna-2026.md)），先确认付费档位解决了你真实遇到的瓶颈再掏钱。
 
 ## 避坑清单
 
@@ -123,7 +123,7 @@ A: 不能。Plus 未到期不能直接转 Pro（官方和代充渠道都一样�
 
 **Q: 代充的价格为什么比 $20 贵？**
 
-A: 差价覆盖的是海外支付通道成本 + 汇率损耗 + 服务费。官方价换算人民币约 ¥143（2026-08 汇率口径），加上这三项，正规平台的 Plus 月费普遍在 ¥150-200 区间。明显低于这个区间的（比如 ¥99），要么是共享号，要么是黑卡，两种都别碰。
+A: 差价覆盖的是海外支付通道成本 + 汇率损耗 + 服务费。官方价换算人民币约 ¥134（2026-09 汇率口径），加上这三项，正规平台的 Plus 月费普遍在 ¥150-200 区间。明显低于这个区间的（比如 ¥99），要么是共享号，要么是黑卡，两种都别碰。
 
 **Q: 充完 Plus 标识没出来怎么办？**
 
@@ -148,3 +148,8 @@ A: 平台页面标什么价就是实付价，支付环节不再加收。如果�
 - [虚拟卡兴衰史：一代工具的谢幕](../06-api-and-relays/rise-and-fall-of-virtual-cards-2026.md) —— 路径 2 为什么不推荐的完整背景
 - [Session Token 是什么：凭证原理与安全铁律](../08-chatgpt-deep-dive/chatgpt-session-token-explained-2026.md) —— 代充为什么不需要密码的技术解释
 - [ChatGPT 套餐怎么选：免费、Go、Plus、Pro 对比](../02-chatgpt-getting-started/chatgpt-plans-comparison-2026.md) —— 充值之前先确认该不该充
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=12-recharge-guides) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=12-recharge-guides)

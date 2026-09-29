@@ -70,3 +70,8 @@ A: 给 AI 数据和想强调的结论,让它推荐图表类型并出代码/表�
 - [AI 写作完整流程（2026）](ai-for-writing-2026.md)
 - [AI 数据分析（2026）](ai-for-data-analysis-2026.md)
 - [图片模型入门（2026）](../04-multimodal-creation/image-models-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)

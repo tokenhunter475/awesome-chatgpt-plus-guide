@@ -72,3 +72,8 @@ A: 手机语音助手是「指令执行」(定闹钟开空调),对话 AI 是「�
 - [AI 读长文档:合同、论文（2026）](ai-for-reading-long-docs-2026.md)
 - [豆包是什么（2026）](../05-ai-toolbox/what-is-doubao-2026.md)
 - [用 AI 会泄露隐私吗（2026）](../00-ai-fundamentals/ai-data-security-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)

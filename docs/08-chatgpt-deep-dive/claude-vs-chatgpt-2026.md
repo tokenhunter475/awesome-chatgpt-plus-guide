@@ -64,10 +64,15 @@ A: 风控策略随时调整,以实际体验为准。原则不变:独立账号、
 
 Q: 会不会以后一家通吃?
 
-A: 看不出这个趋势——2026 年的反而是各家在细分场景拉开差异化(微软都开始同时接 GPT 和 Claude 了,见[Copilot 合作](../07-industry-watch/microsoft-copilot-anthropic-2026.md))。按任务分,长期是对的。
+A: 看不出这个趋势——2026 年的反而是各家在细分场景拉开差异化(微软都开始同时接 GPT 和 Claude 了,见[Copilot 合作](../../archive/07-industry-watch/microsoft-copilot-anthropic-2026.md))。按任务分,长期是对的。
 
 ## 相关阅读
 
 - [三大模型家族对比：GPT vs DeepSeek vs Claude（2026）](../01-models-and-tools/gpt-vs-deepseek-vs-claude-2026.md)
 - [AI 编程工具对比：Codex vs Claude Code vs Cursor vs Gemini（2026）](../01-models-and-tools/ai-coding-tools-comparison-2026.md)
 - [Claude 是什么？Claude 模型与 Claude Code 的关系（2026）](../01-models-and-tools/claude-and-claude-code-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

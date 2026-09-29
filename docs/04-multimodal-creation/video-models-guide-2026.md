@@ -15,7 +15,7 @@ updated: 2026-08-20
 
 > 事实口径 2026 年 8 月；视频生成成本和开放范围变化极快，以官方页面为准。
 
-视频模型的故事比图片更戏剧：2025 年 Sora 独立应用发布时被当成「视频行业的终结者」，几个月后跌出 App Store 免费榜 Top 100，2026 年 3 月底独立应用直接关停（每天约 1500 万美元的推理成本拖垮了它，完整时间线见 [Sora 编年史](../07-industry-watch/sora-rise-and-fall-timeline-2026.md)）。这一起一落本身就说明了视频模型的现状——**技术上惊人，成本上吓人，场景上还没找到刚需**。这篇把现状和用法讲清。
+视频模型的故事比图片更戏剧：2025 年 Sora 独立应用发布时被当成「视频行业的终结者」，几个月后跌出 App Store 免费榜 Top 100，2026 年 3 月底独立应用直接关停（每天约 1500 万美元的推理成本拖垮了它，完整时间线见 [Sora 编年史](../../archive/07-industry-watch/sora-rise-and-fall-timeline-2026.md)）。这一起一落本身就说明了视频模型的现状——**技术上惊人，成本上吓人，场景上还没找到刚需**。这篇把现状和用法讲清。
 
 太长不看版，直接抄结论：
 
@@ -106,3 +106,8 @@ A: 短期不会取代「创作」，但会压低「素材生产」的成本线�
 - [图片模型入门：AI 生图怎么回事（2026）](image-models-guide-2026.md)
 - [音频与语音 AI 入门（2026）](audio-and-voice-ai-guide-2026.md)
 - [大模型是什么？AI 为什么会说话、写代码（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=04-multimodal-creation) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=04-multimodal-creation)

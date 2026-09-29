@@ -75,3 +75,8 @@ A: 先查 status.openai.com——2026 年 6 月就有过「消耗异常偏快」
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
 - [ChatGPT Pro 5X/20X 深度评测：为 Codex 花 $100 还是 $200（2026）](chatgpt-pro-5x-20x-for-codex-2026.md)
 - [API 额度 vs 订阅：两套钱包别充错（2026）](../06-api-and-relays/api-credits-vs-subscription-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=08-chatgpt-deep-dive)

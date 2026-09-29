@@ -37,7 +37,7 @@ GPT-5.6 Sol 上线后消耗偏快的反馈集中出现(伴随「降智」质疑,
 
 ## 为什么效率优化值得单独记
 
-模型代的跃升(GPT-5.2 → 5.4 → 5.6)是台阶,效率优化是台阶之间的斜坡——**用户真实感受到的性价比,是两者相乘**。2026 年的趋势也很清楚:各家从「更大」转向「更快更省」——Claude Code 的[快速模式](../07-industry-watch/claude-code-fast-mode-2026.md)是花钱买快,GPT-5.6 的 Luna 档是便宜换快,Codex 的效率优化是不加价的快。**速度,已经成了和智力并列的付费维度。**
+模型代的跃升(GPT-5.2 → 5.4 → 5.6)是台阶,效率优化是台阶之间的斜坡——**用户真实感受到的性价比,是两者相乘**。2026 年的趋势也很清楚:各家从「更大」转向「更快更省」——Claude Code 的[快速模式](../../archive/07-industry-watch/claude-code-fast-mode-2026.md)是花钱买快,GPT-5.6 的 Luna 档是便宜换快,Codex 的效率优化是不加价的快。**速度,已经成了和智力并列的付费维度。**
 
 ## 速度优化的钱,最终变成了什么
 
@@ -65,5 +65,10 @@ A: 优化主力在新代模型上;老模型按生命周期逐步退役(如 GPT-5
 ## 相关阅读
 
 - [Codex 5 小时限额风波（2026）](codex-5h-limit-saga-2026.md)
-- [Claude Code 快速模式：为速度多付钱（2026）](../07-industry-watch/claude-code-fast-mode-2026.md)
+- [Claude Code 快速模式：为速度多付钱（2026）](../../archive/07-industry-watch/claude-code-fast-mode-2026.md)
 - [GPT-5.6 vs GPT-5.5：实测数据（2026）](../08-chatgpt-deep-dive/gpt-5-6-vs-gpt-5-5-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

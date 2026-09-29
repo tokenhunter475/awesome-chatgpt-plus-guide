@@ -64,3 +64,8 @@ A: 方向如此——MCP 等开放协议 + 官方插件,墙在变矮。评估工
 - [AI 编程工具对比：Codex vs Claude Code vs Cursor（2026）](../01-models-and-tools/ai-coding-tools-comparison-2026.md)
 - [Xcode 26.3 与 MCP 的胜利（2026）](codex-xcode-agentic-2026.md)
 - [Codex 代码审查实战（2026）](../03-codex-tutorials/codex-code-review-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

@@ -67,4 +67,9 @@ A: 值得试——可视化界面 + 官方技能库,是「不碰终端也能用 
 
 - [Codex 入门：五种形态、五大场景（2026）](../03-codex-tutorials/codex-getting-started-2026.md)
 - [Codex Skills 用法：/skills 机制、技能怎么写（2026）](../03-codex-tutorials/codex-skills-guide-2026.md)
-- [Claude Code Routines：AI 编程进入值班时代（2026）](../07-industry-watch/claude-code-routines-2026.md)
+- [Claude Code Routines：AI 编程进入值班时代（2026）](../../archive/07-industry-watch/claude-code-routines-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=09-codex-advanced)

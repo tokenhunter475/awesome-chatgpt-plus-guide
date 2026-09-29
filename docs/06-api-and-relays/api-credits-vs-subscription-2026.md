@@ -85,3 +85,8 @@ A: 官方绑卡需要海外支付方式；第三方中转是常见替代，但�
 - [API 是什么？给非程序员的 10 分钟入门（2026）](what-is-api-2026.md)
 - [API 中转站是什么、怎么判断靠不靠谱（2026）](what-is-api-relay-2026.md)
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](../03-codex-tutorials/codex-usage-limits-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **订阅和 API 是两套钱包。** 要用 ChatGPT 和 Codex 的套餐额度，开的是 Plus / Pro 订阅。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays) · [API 额度 vs 订阅：别充错](https://www.payforchat.com/articles/chatgpt-api-credit-recharge-vs-subscription-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=06-api-and-relays)

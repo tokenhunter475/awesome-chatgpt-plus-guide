@@ -203,3 +203,8 @@ A: 2026 年 4 月起用量按 token 计算，大仓库长任务消耗天然高�
 
 - [Codex 和 GPT 的区别是什么？（2026）](codex-vs-gpt-difference-2026.md)
 - [Codex 用量上限说明：5 小时窗口与周上限（2026）](codex-usage-limits-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **Codex 额度不够，或还没有 Plus / Pro？** Codex 用量随 ChatGPT Plus / Pro 套餐附带。PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials) · [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=03-codex-tutorials)

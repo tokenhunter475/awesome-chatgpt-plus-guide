@@ -72,3 +72,8 @@ updated: 2026-08-20
 - [ChatGPT 账号注册教程 2026](chatgpt-signup-guide-2026.md)
 - [ChatGPT 使用入门：界面、对话、文件上传（2026）](chatgpt-beginners-guide-2026.md)
 - [用 AI 会泄露隐私吗？数据安全与账号保护指南（2026）](../00-ai-fundamentals/ai-data-security-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想开 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started) · [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=02-chatgpt-getting-started)

@@ -84,3 +84,8 @@ A: 国产模型产品普遍内置了搜索（豆包、Kimi、DeepSeek 都有对�
 - [大模型是什么？AI 为什么会说话、写代码（2026）](../00-ai-fundamentals/what-is-llm-2026.md)
 - [豆包是什么？字节跳动的 AI 助手适合谁（2026）](what-is-doubao-2026.md)
 - [提示词入门：怎么向 AI 提问才能得到好答案（2026）](../02-chatgpt-getting-started/prompt-engineering-basics-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=05-ai-toolbox) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=05-ai-toolbox)

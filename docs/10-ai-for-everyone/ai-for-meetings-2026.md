@@ -75,3 +75,8 @@ A: 照样用:「这是我的零散笔记,按决议/待办/存档结构整理成�
 - [AI 读长文档（2026）](ai-for-reading-long-docs-2026.md)
 - [AI 写作完整流程（2026）](ai-for-writing-2026.md)
 - [音频与语音 AI 入门（2026）](../04-multimodal-creation/audio-and-voice-ai-guide-2026.md)
+
+---
+
+<!-- payforchat-cta -->
+> **想用 ChatGPT Plus / Pro，但没有海外信用卡？** PayForChat 支持微信、支付宝付款，充在你自己的账号上，不需要密码，Plus 一般 1–3 分钟到账，充值失败全额退款。[看套餐](https://www.payforchat.com/plans?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone) · [国内充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=docs&utm_campaign=plus-guide&utm_content=10-ai-for-everyone)
