@@ -1,114 +1,139 @@
-# ChatGPT Plus 国内充值与使用全攻略（2026 持续更新）
+# ChatGPT Plus 国内怎么充值？没海外卡用微信 / 支付宝开通 Plus、Pro、Codex（2026 年 9 月核实）
 
-> 国内订阅 ChatGPT Plus / Pro / Codex 的一站式指南：微信/支付宝充值教程、付款被拒等常见报错解决、Codex CLI 使用攻略。真实案例，持续更新。
+> 信息最后核实：**2026-09-29**。本仓库由 [PayForChat](https://www.payforchat.com/?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) 团队维护，PayForChat 是独立第三方充值服务，与 OpenAI 没有隶属、代理或授权关系。文中不写人民币价格，价格随汇率和成本调整，以套餐页实时标价为准。
 
-**关键词**：ChatGPT Plus 充值 ｜ ChatGPT 代充 ｜ 微信支付 ChatGPT ｜ codex充值 ｜ your card was declined 解决
+没有海外信用卡、想把 ChatGPT Plus 或 Pro 开到**自己的账号**上：用微信或支付宝付款，付完贴一次临时登录凭证（不是密码），Plus 一般 1–3 分钟到账，充值失败全额退款。
 
----
+## 快速入口
 
-## 为什么需要这份指南
-
-国内用 ChatGPT 的难点不在步骤，在于限制：
-
-- **支付限制** — OpenAI 收银走 Stripe，按卡 BIN 段、IP、账单地址三重校验，国内发行的卡直接被拒。
-- **地区限制** — OpenAI 未对中国大陆开放，存在 IP 与账号风控。
-- **报错不透明** — "Your card was declined" 不说明真实原因，网上教程又多是过时的虚拟卡方案。
-
-本指南收集 2026 年实测可行的支付路径、真实报错案例和解决方法，随政策与新模型发布持续更新。
-
-## 教程目录
-
-按学习路径递进的 30 篇教程，完整目录见 [docs/](docs/)：
-
-### 🌱 00 AI 基础（6 篇）
-
-零基础打地基：[AI 是什么](docs/00-ai-fundamentals/what-is-ai-2026.md) · [大模型是什么](docs/00-ai-fundamentals/what-is-llm-2026.md) · [AI Agent 是什么](docs/00-ai-fundamentals/what-is-ai-agent-2026.md) · [AI 与 Agent 怎么选](docs/00-ai-fundamentals/ai-vs-agent-how-to-choose-2026.md) · [AI 发展历程](docs/00-ai-fundamentals/evolution-of-ai-2026.md) · [数据安全指南](docs/00-ai-fundamentals/ai-data-security-2026.md)
-
-### 🔥 01 模型与工具（8 篇）
-
-认识主流玩家：[ChatGPT 是什么](docs/01-models-and-tools/what-is-chatgpt-2026.md) · [GPT-5.6 档位解读](docs/01-models-and-tools/gpt-5-6-sol-terra-luna-explained-2026.md) · [DeepSeek 是什么](docs/01-models-and-tools/what-is-deepseek-2026.md) · [DeepSeek 涨价解读](docs/01-models-and-tools/deepseek-api-price-hike-2026.md) · [Claude 与 Claude Code](docs/01-models-and-tools/claude-and-claude-code-2026.md) · [编程工具对比](docs/01-models-and-tools/ai-coding-tools-comparison-2026.md) · [三大模型对比](docs/01-models-and-tools/gpt-vs-deepseek-vs-claude-2026.md) · [开源 vs 闭源](docs/01-models-and-tools/open-source-vs-closed-source-models-2026.md)
-
-### 💬 02 ChatGPT 上手（5 篇）
-
-[账号注册](docs/02-chatgpt-getting-started/chatgpt-signup-guide-2026.md) · [使用入门](docs/02-chatgpt-getting-started/chatgpt-beginners-guide-2026.md) · [套餐怎么选](docs/02-chatgpt-getting-started/chatgpt-plans-comparison-2026.md) · [提示词入门](docs/02-chatgpt-getting-started/prompt-engineering-basics-2026.md) · [新手常见问题](docs/02-chatgpt-getting-started/chatgpt-common-issues-2026.md)
-
-### 💻 03 Codex 教程（11 篇，主线高潮）
-
-[Codex 和 GPT 的区别](docs/03-codex-tutorials/codex-vs-gpt-difference-2026.md) · [Codex 入门](docs/03-codex-tutorials/codex-getting-started-2026.md) · [CLI 使用教程](docs/03-codex-tutorials/codex-cli-tutorial-2026.md) · [IDE 集成](docs/03-codex-tutorials/codex-ide-integration-2026.md) · [网页版与云端任务](docs/03-codex-tutorials/codex-cloud-tasks-2026.md) · [提示词实战](docs/03-codex-tutorials/codex-prompt-guide-2026.md) · [Skills 用法](docs/03-codex-tutorials/codex-skills-guide-2026.md) · [工作流实战](docs/03-codex-tutorials/codex-workflow-guide-2026.md) · [记忆与配置](docs/03-codex-tutorials/codex-memory-and-config-2026.md) · [代码审查实战](docs/03-codex-tutorials/codex-code-review-2026.md) · [用量上限说明](docs/03-codex-tutorials/codex-usage-limits-2026.md)
-
-### 🎨 04 多模态创作（4 篇，开天眼）
-
-[图片模型入门](docs/04-multimodal-creation/image-models-guide-2026.md) · [视频模型入门：Sora 的起落](docs/04-multimodal-creation/video-models-guide-2026.md) · [音频与语音 AI](docs/04-multimodal-creation/audio-and-voice-ai-guide-2026.md) · [多模态进工作流](docs/04-multimodal-creation/multimodal-workflow-2026.md)
-
-### 🧰 05 AI 工具百科（4 篇，支线·逛集市）
-
-[豆包](docs/05-ai-toolbox/what-is-doubao-2026.md) · [Kimi 与月之暗面](docs/05-ai-toolbox/what-is-kimi-2026.md) · [AI 搜索](docs/05-ai-toolbox/what-is-ai-search-2026.md) · [智能体平台](docs/05-ai-toolbox/agent-platforms-guide-2026.md)
-
-### ⚠️ 06 API 与中转（5 篇，支线·历劫记）
-
-[API 入门](docs/06-api-and-relays/what-is-api-2026.md) · [API 额度 vs 订阅](docs/06-api-and-relays/api-credits-vs-subscription-2026.md) · [API 中转站](docs/06-api-and-relays/what-is-api-relay-2026.md) · [血的教训合集](docs/06-api-and-relays/ai-pitfalls-lessons-2026.md) · [虚拟卡兴衰史](docs/06-api-and-relays/rise-and-fall-of-virtual-cards-2026.md)
-
-### 📰 07 行业风向（12 篇，支线）
-
-[免费版无限对话+Luna](docs/07-industry-watch/chatgpt-free-unlimited-luna-2026.md) · [OpenAI 砍产品线](docs/07-industry-watch/openai-ipo-product-cuts-2026.md) · [Sora 时间线](docs/07-industry-watch/sora-rise-and-fall-timeline-2026.md) · [AI 像水电计费](docs/07-industry-watch/sam-altman-ai-electricity-2026.md) · [英伟达交易搁置](docs/07-industry-watch/openai-nvidia-deal-on-ice-2026.md) · [微软接 Claude](docs/07-industry-watch/microsoft-copilot-anthropic-2026.md) · [OpenAI 收购 Astral](docs/07-industry-watch/openai-buys-python-tools-2026.md) · [GPT-5.4 与 Tool Search](docs/07-industry-watch/gpt-5-4-tool-search-2026.md) · [Astra=GPT-6?](docs/07-industry-watch/astra-gpt-6-what-we-know-2026.md) · [Claude Code 15 功能](docs/07-industry-watch/claude-code-underrated-features-2026.md) · [快速模式](docs/07-industry-watch/claude-code-fast-mode-2026.md) · [Routines 值班](docs/07-industry-watch/claude-code-routines-2026.md)
-
-### 🔬 08 ChatGPT 深水区（10 篇，支线）
-
-[降智自救](docs/08-chatgpt-deep-dive/chatgpt-degraded-what-to-do-2026.md) · [Plus 显示 Free](docs/08-chatgpt-deep-dive/chatgpt-plus-showing-free-fix-2026.md) · [Session Token](docs/08-chatgpt-deep-dive/chatgpt-session-token-explained-2026.md) · [Codex 额度算账](docs/08-chatgpt-deep-dive/codex-quota-supplement-guide-2026.md) · [Pro 5X/20X 评测](docs/08-chatgpt-deep-dive/chatgpt-pro-5x-20x-for-codex-2026.md) · [GPT-5.6 vs 5.5](docs/08-chatgpt-deep-dive/gpt-5-6-vs-gpt-5-5-2026.md) · [用上 GPT-5.6](docs/08-chatgpt-deep-dive/how-to-use-gpt-5-6-2026.md) · [Plus vs 免费](docs/08-chatgpt-deep-dive/chatgpt-plus-vs-free-2026.md) · [Claude vs ChatGPT](docs/08-chatgpt-deep-dive/claude-vs-chatgpt-2026.md) · [ChatGPT Work](docs/08-chatgpt-deep-dive/chatgpt-work-explained-2026.md)
-
-### 🛠 09 Codex 进阶（15 篇，支线）
-
-[桌面版实测](docs/09-codex-advanced/codex-desktop-app-review-2026.md) · [定时任务](docs/09-codex-advanced/codex-automations-tasks-2026.md) · [Xcode 接入](docs/09-codex-advanced/codex-xcode-agentic-2026.md) · [增长时间线](docs/09-codex-advanced/codex-growth-timeline-2026.md) · [5 小时限额风波](docs/09-codex-advanced/codex-5h-limit-saga-2026.md) · [Security 安全代理](docs/09-codex-advanced/codex-security-agent-2026.md) · [macOS 插件](docs/09-codex-advanced/codex-macos-plugin-2026.md) · [GitHub @codex](docs/09-codex-advanced/codex-github-workflow-2026.md) · [效率编年史](docs/09-codex-advanced/codex-speed-history-2026.md) · [插进 Claude Code](docs/09-codex-advanced/codex-plugin-in-claude-code-2026.md) · [CLI 开源](docs/09-codex-advanced/codex-open-source-cli-2026.md) · [故障排查大全](docs/09-codex-advanced/codex-troubleshooting-guide-2026.md) · [Skills 生态](docs/09-codex-advanced/codex-skills-ecosystem-2026.md) · [共享用量池](docs/09-codex-advanced/codex-usage-pool-explained-2026.md) · [手机用 Codex](docs/09-codex-advanced/codex-mobile-guide-2026.md)
-
-### 🌍 10 人人 AI（13 篇，支线）
-
-[写作](docs/10-ai-for-everyone/ai-for-writing-2026.md) · [翻译](docs/10-ai-for-everyone/ai-for-translation-2026.md) · [数据分析](docs/10-ai-for-everyone/ai-for-data-analysis-2026.md) · [做 PPT](docs/10-ai-for-everyone/ai-for-ppt-2026.md) · [找工作](docs/10-ai-for-everyone/ai-for-job-hunting-2026.md) · [学生学习](docs/10-ai-for-everyone/ai-for-students-2026.md) · [学英语](docs/10-ai-for-everyone/ai-for-english-learning-2026.md) · [程序员提效](docs/10-ai-for-everyone/ai-for-programmers-2026.md) · [自媒体工作流](docs/10-ai-for-everyone/ai-for-content-creators-2026.md) · [会议纪要](docs/10-ai-for-everyone/ai-for-meetings-2026.md) · [读长文档](docs/10-ai-for-everyone/ai-for-reading-long-docs-2026.md) · [头脑风暴](docs/10-ai-for-everyone/ai-for-brainstorming-2026.md) · [日常生活](docs/10-ai-for-everyone/ai-daily-life-2026.md)
-
-### 🎪 11 猎奇观察室（21 篇，支线·花边与深读）
-
-[钱的数字](docs/11-ai-curiosities/ai-money-numbers-2026.md) · [广告的代价](docs/11-ai-curiosities/chatgpt-ads-and-the-price-of-free-2026.md) · [迪士尼分手信](docs/11-ai-curiosities/openai-disney-breakup-story-2026.md) · [蒸馏风波](docs/11-ai-curiosities/ai-distillation-drama-2026.md) · [和AI吵架](docs/11-ai-curiosities/fighting-with-ai-coding-tools-2026.md) · [都市传说鉴定](docs/11-ai-curiosities/ai-urban-legends-fact-check-2026.md) · [命名玄学](docs/11-ai-curiosities/ai-naming-philosophy-2026.md) · [手机写代码](docs/11-ai-curiosities/mobile-coding-real-story-2026.md) · [术语大战](docs/11-ai-curiosities/ai-terminology-wars-2026.md) · [工具段位江湖](docs/11-ai-curiosities/ai-coding-tools-rankings-lore-2026.md) · [回答为啥不同](docs/11-ai-curiosities/why-ai-answers-differ-2026.md) · [AI教你用AI](docs/11-ai-curiosities/ai-improving-ai-tricks-2026.md) · [AI拍马屁](docs/11-ai-curiosities/ai-sycophancy-problem-2026.md) · [AI时间观](docs/11-ai-curiosities/ai-sense-of-time-2026.md) · [废话文学](docs/11-ai-curiosities/ai-filler-words-anatomy-2026.md) · [2026年鉴](docs/11-ai-curiosities/ai-2026-timeline-yearbook-2026.md) · [冷知识彩蛋](docs/11-ai-curiosities/ai-fun-facts-2026.md) · [恐怖谷时刻](docs/11-ai-curiosities/ai-uncanny-valley-moments-2026.md) · [巴甫洛夫实验](docs/11-ai-curiosities/ai-pavlovian-users-2026.md) · [AI自我修养](docs/11-ai-curiosities/ai-self-reflection-2026.md) · [消费穷富思维](docs/11-ai-curiosities/ai-spending-mindset-2026.md)
-
-### 💳 12 充值教程（1 篇，支线·交学费）
-
-[Plus 国内充值 4 路径对比](docs/12-recharge-guides/chatgpt-plus-recharge-guide-2026.md)
-
-### 整理中
-
-常见报错分类后续上线。
-
-## 订阅方案速查
-
-| 方案 | 费用 | 到账速度 | 稳定性 | 备注 |
-|---|---|---|---|---|
-| 境外实体信用卡 | 官方 $20/月 | 即时 | 高 | 有海外银行账户的首选；国内卡按 BIN 段被拒 |
-| Apple 内购 | $20 + 礼品卡溢价 | 配置约 30 分钟 | 中 | 需非国区 Apple ID + 美区礼品卡 |
-| 虚拟信用卡 | $20 + 开卡费/手续费 | 不定 | **低** | 2026 年大量平台停运或被 Stripe 风控，不建议入坑 |
-| 代充服务（如 [PayForChat](https://payforchat.com/plans?ref=github)） | Plus ¥199 起（2026-08 口径） | Plus 1-3 分钟 | 高 | 微信/支付宝/Stripe；不需密码，只需临时 session token；失败全额退款 |
-
-**披露**：本仓库由 PayForChat 团队维护。PayForChat 是独立第三方服务，与 OpenAI 无关联。方案对比保持公允——只放自家产品的指南没人会信。
-
-## 常见问题速答
-
-- **代充会封号吗？** 封号案例都出在黑卡充值和共享号上。合规支付渠道不触发风控；正规服务只要临时 session token，永远不会要密码。
-- **Plus 没到期能升 Pro 吗？** 代充渠道不能。等 Plus 到期后再开 Pro，或用新账号开 Pro。
-- **能开发票吗？** PayForChat 对已完成订单提供 PDF 发票（非增值税发票），企业采购联系客服。
-- **Claude Pro 怎么充？** 同一堵支付墙，同一套解决路径。专题文档整理中。
-
-## 更新日志
-
-| 日期 | 更新 |
+| 你想做什么 | 直接去 |
 |---|---|
-| 2026-08-25 | 充值教程卷开放（总 115 篇）：首发《ChatGPT Plus 充值教程（2026 国内版）：4 条路径实测对比》——Stripe 风控机制解释、境外卡/礼品卡/虚拟卡/代充横评、避坑清单。 |
-| 2026-08-24 | 支线「猎奇观察室」21 篇上线（总 114 篇）：大钱大瓜（钱的数字/迪士尼分手信/蒸馏风波）、行为观察（吵架合集/谄媚/时间观/废话文学）、冷知识（命名玄学/彩蛋/术语大战）、思维向（恐怖谷/巴甫洛夫/自我修养/消费观）。 |
-| 2026-08-20 | 第三批 50 篇上线（总 93 篇）：新增行业风向卷 12 篇、ChatGPT 深水区卷 10 篇、Codex 进阶卷 15 篇、人人 AI 卷 13 篇。 |
-| 2026-08-20 | 目录与文件名全面改为规范英文 slug（正文保持中文）：`00-ai-fundamentals` 至 `06-api-and-relays` 七卷，43 篇文章同步重命名并更新全站链接。 |
-| 2026-08-20 | 第二批 13 篇上线（总 43 篇）：新增多模态创作卷（图/视频/音频）、AI 工具百科卷（豆包/Kimi/AI 搜索/智能体平台）、API 与中转卷（API 入门/双钱包/中转站/血的教训/虚拟卡兴衰史）。教程确立「成长小说」结构：五幕主线 + 三卷支线。 |
-| 2026-08-20 | 上线 30 篇递进式教程：AI 基础 6 篇 → 模型与工具 8 篇 → ChatGPT 上手 5 篇 → Codex 教程 11 篇。充值教程与常见报错整理中。 |
+| 直接开通 Plus / Pro | [套餐页：看当前在售套餐与价格](https://www.payforchat.com/plans?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
+| 看一遍完整下单流程再决定 | [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
+| 比较官网绑卡、礼品卡、代充哪条路适合你 | [GPT / ChatGPT 代充与充值全指南](https://www.payforchat.com/articles/2026-gpt-chatgpt-recharge-guide-plus-pro?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
+| 想用 Codex，或 Codex 额度不够 | [Codex 代充指南：套餐、额度、到账](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
+| 开 Grok（SuperGrok / Super Heavy） | [Grok 充值页](https://www.payforchat.com/grok?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
+| 已经付款，查进度、提工单、下载 Invoice | [用户中心](https://www.payforchat.com/dashboard) |
+| 公司采购、批量开通、报销 | [团队采购](https://www.payforchat.com/team-purchase) |
+| 其它问题 | [帮助中心](https://www.payforchat.com/help) |
 
-## 参与贡献
+## 最常问的 8 个问题
 
-报错案例、价格变动、纠错都欢迎：见 [CONTRIBUTING.md](CONTRIBUTING.md)，或直接提 Issue。
+| 问题 | 答案 |
+|---|---|
+| **ChatGPT Plus 国内怎么充值？** | 三步：在套餐页选 Plus 并用微信 / 支付宝付款 → 按页面指引贴一次临时登录凭证 → 系统在你自己的账号上完成官方订阅，邮件通知到账。全程在 payforchat.com 完成，不用加客服微信。 |
+| **没有海外信用卡能开 Plus 吗？** | 能。这就是代充解决的问题：你付人民币，平台替你完成官方订阅。也支持 Stripe 国际信用卡付款。 |
+| **代充安全吗？会封号吗？** | 充值直接完成在你自己的 ChatGPT 账号上，走正规渠道，账号始终是你的。"代充会封号"的说法几乎都来自共享账号（多人同时登录触发风控）和来路不明的成品账号，PayForChat 不做这两种。 |
+| **要交账号密码吗？** | 不要。只用一个有时效的临时访问凭证（浏览器里 `chatgpt.com/api/auth/session` 这一页的内容），充值成功后立即删除。任何要你交密码或验证码的渠道都要警惕。 |
+| **多久到账？** | Plus 一般 1–3 分钟自动到账；Pro 5X 以订单页提示为准；Pro 20X 目前只能续费或到期回归，人工处理通常 1–3 小时。2026-09-29 抽查当天 3 笔 Plus 订单，付款到到账 2–4 分钟。 |
+| **Plus 没到期能直接升 Pro 吗？** | 不能补差价升级。Pro 充值要求账号处于普通状态，等 Plus 到期后再开 Pro，或用一个干净的新账号开。 |
+| **充值失败会退款吗？** | 会，全额原路退款。充值成功后因平台原因导致订阅中断，按已使用天数折算部分退款。 |
+| **能开发票吗？** | 已完成订单在用户中心自助下载 PDF Invoice（境外服务消费凭证，和 AWS、GitHub 的一样）。暂不支持国内增值税发票。 |
 
-## 协议
+## 国内开 ChatGPT Plus 的四条路，各适合谁
 
-[CC BY 4.0](LICENSE) — 署名即可自由转载与改编。
+| 路径 | 前置条件 | 到账 | 2026 年的实际情况 | 适合谁 |
+|---|---|---|---|---|
+| OpenAI 官网绑卡 | 海外实体卡 + 海外 IP + 对得上的账单地址 | 即时 | 最稳，但国内发行的卡按卡号段直接被拒 | 有海外银行账户的人 |
+| App Store 礼品卡内购 | 非国区 Apple ID + 对应区礼品卡 | 配置约半小时 | 礼品卡有 5–10% 溢价，2026 年风控明显收紧；走了内购的账号以后换渠道续费会很麻烦 | 熟悉苹果生态、愿意折腾的 iPhone 用户 |
+| 虚拟信用卡 | KYC + USDT 入金 | 不定 | 头部平台 2025 年下半年起陆续停运，卡段被 Stripe 大面积标记，不建议新办 | 只剩存量卡的老用户 |
+| **自助代充** | 无 | Plus 1–3 分钟 | 微信 / 支付宝付款，订阅落在自己账号上；关键是挑对平台（见下节） | 没有海外卡、不想折腾的大多数人 |
+| 共享账号 / 成品账号 | 无 | 即时 | 对话互相可见、异地同时登录触发风控、随时可能被改密码或找回 | 不建议 |
+
+### 为什么国内卡总是被拒
+
+OpenAI 的收银台走 Stripe，付款时会做三道校验，任何一道不过就 decline：卡号前几位识别出中国大陆发卡行直接拒；支付时的 IP 要落在支持地区且不能是机房 IP；账单地址要和发卡行记录对得上。所以「Your card was declined」「付款未获批准」「Country not supported」是三个不同的问题，换卡解决不了 IP，换节点解决不了卡。细讲见 [ChatGPT 充值失败的原因与解决](https://www.payforchat.com/articles/chatgpt-topup-failed-reasons-solutions-2026)。
+
+## 选代充平台，只看三条
+
+1. **订阅是不是完成在你自己的账号上。** 给你一个"已开好 Plus 的现成账号"的不是代充，是卖号。
+2. **要不要密码。** 正规做法只要有时效的临时凭证，用完作废；要密码、要验证码的直接绕开。
+3. **售后规则有没有写清楚。** 失败退不退、掉订阅怎么算、订单能不能自己查，写在页面上才算数。
+
+PayForChat 这三条都在页面上：[代充安全吗](https://www.payforchat.com/help/recharge-account-safety) · [售后保障](https://www.payforchat.com/help/after-sales-guarantee) · [服务条款](https://www.payforchat.com/terms)。五家平台的横评见 [2026 年代充平台对比](https://www.payforchat.com/articles/2026-chatgpt-plus-recharge-platforms-comparison)。
+
+## PayForChat 实际流程
+
+### ChatGPT Plus
+
+1. 打开[套餐页](https://www.payforchat.com/plans?utm_source=github&utm_medium=readme&utm_campaign=plus-guide)，选 Plus（有 1 个月、2 个月、3 个月和年卡），微信 / 支付宝 / 信用卡付款。
+2. 按订单页指引，在已登录 ChatGPT 的浏览器里打开 `https://chatgpt.com/api/auth/session`，把页面内容整段复制粘贴到订单页。图文步骤见[如何获取 ChatGPT Access Token](https://www.payforchat.com/help/chatgpt-access-token)。
+3. 系统自动在你的账号上完成订阅，一般 1–3 分钟，邮件通知结果；订单页每一步都有状态。
+4. 到账后登录 chatgpt.com 看套餐页确认。如果仍显示 Free，先刷新、退出再登录、确认登录的是下单时填的邮箱，等 5–10 分钟；超过 30 分钟带订单号提[工单](https://www.payforchat.com/dashboard/tickets)。
+
+![PayForChat 帮助中心：如何获取临时登录凭证（2026-09-29 截图）](assets/readme/access-token-help-2026-09-29.png)
+
+### ChatGPT Pro 5X / 20X
+
+- **Pro 5X**：正常可开，流程同 Plus，到账时间以订单页提示为准。要求账号当前没有生效中的 Plus。
+- **Pro 20X**：OpenAI 自 2026-09-10 起暂停新购，从没开过 20X 的账号现在开不了。原 20X 订阅可以续费；近期失去 20X 的账号，到期后 30 天内有一次回归机会。这两种情况 PayForChat 人工办理，通常 1–3 小时。你属于哪种、怎么判断，见 [Pro 20X 新购暂停：到期 30 天内可回归一次](https://www.payforchat.com/articles/chatgpt-pro-20x-200-new-subscription-paused-2026)。
+
+### Plus、Pro 5X、Pro 20X 怎么选
+
+| 套餐 | OpenAI 官方价 | 适合谁 | 现在能不能开 |
+|---|---|---|---|
+| Plus | $20 / 月 | 日常对话、写作、学习，普通强度的 Codex | 能 |
+| Pro 5X | $100 / 月 | Plus 额度经常不够、个人高频 Codex、长文档和深度研究 | 能 |
+| Pro 20X | $200 / 月 | 全天重度、多项目并行的 Codex 用户 | 仅续费或到期回归 |
+
+5X 和 20X 的 Codex 额度到底差多少、值不值，见 [Pro 5X vs 20X 完整对比](https://www.payforchat.com/articles/chatgpt-pro-5x-vs-20x-comparison)。Codex 用量随 Plus / Pro 套餐附带，不能单独购买额度；Codex 提示"已达到使用上限"怎么办，见[这篇](https://www.payforchat.com/articles/codex-usage-limit-reached-fix-2026)。
+
+## 常见问题
+
+### 我的凭证会被怎么处理？
+
+只用于这一次充值，充值成功后立即删除；敏感数据 AES-256 加密存储，传输全程 HTTPS。这段凭证本身是什么、为什么很多平台要它、安不安全，见 [chatgpt.com/api/auth/session 这串代码是什么](https://www.payforchat.com/articles/chatgpt-access-token-session-json-guide-2026)。
+
+### 到账后 ChatGPT 还显示 Free
+
+多数是页面缓存。刷新或重开 App，退出再登录一次，确认登录的是订单里的邮箱，再等 5–10 分钟。超过 30 分钟仍是 Free，带订单号提工单，不要重复下单。
+
+### 代充会自动续费吗？怎么关？
+
+代充是一次性充值，到期自动停止，不会扣你的钱。如果你之前在官网绑过卡，想关掉官方自动续费：chatgpt.com → 左下角头像 → My plan → Manage my subscription → Cancel plan，当前周期内照常使用。
+
+### 可以给别人的账号充吗？下单后能换账号吗？
+
+可以给任何能登录 chatgpt.com 的账号充，填对应账号的凭证即可。一个订单只对应一个账号，下单后不能换绑，要换请重新下单。
+
+### 之前是 App Store 内购的账号能代充吗？
+
+内购来源的订阅走苹果的账单体系，续费、回归都要在苹果那边操作，代充渠道办不了这类账号的 Pro 20X 续费。Plus 的情况先联系客服确认，别直接下单。
+
+### 充值失败、掉订阅、发票
+
+- 充值失败：全额原路退款，联系客服或提工单即可。
+- 充值成功后因平台原因导致订阅中断：按已使用天数折算部分退款。因 OpenAI 政策原因被封禁的情形按[服务条款](https://www.payforchat.com/terms)处理。
+- 发票：用户中心 → 我的订单 → 已完成订单 → Invoice，自助生成 PDF，按实付币种开具。已退款订单无法开票；不支持国内增值税发票。
+
+### 联系客服
+
+页面右下角在线客服、[工单](https://www.payforchat.com/dashboard/tickets)，或邮件 support@payforchat.com。
+
+## 核实记录
+
+| 日期 | 核对内容 |
+|---|---|
+| 2026-09-29 | 套餐页在售：Plus 1 / 2 / 3 个月与年卡、Pro 5X、Grok Super 与 Super Heavy；Pro 20X 仅续费或到期回归。抽查当天 3 笔 Plus 订单，付款到到账 2–4 分钟。支付方式：微信、支付宝、Stripe 信用卡。 |
+| 2026-09-20 | OpenAI 补充 Pro 20X「到期 30 天内一次性回归」规则，站内文章同步更新。 |
+| 2026-09-10 | OpenAI 暂停 Pro 20X 新订阅，本指南 Pro 部分改为"仅续费或回归"。 |
+| 2026-08-25 | 首版发布：四条充值路径对比、Stripe 风控机制说明。 |
+
+发现内容过时、价格或政策变动、报错案例，欢迎提 Issue 或 PR，见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 延伸阅读
+
+仓库 [docs/](docs/) 里另有 116 篇中文教程，从 AI 基础、ChatGPT 上手到 Codex 进阶，按学习路径排好，和充值无关。站内还有这些和本文直接相关的文章：
+
+- [ChatGPT Plus 代充渠道怎么挑：五个问题问清楚](https://www.payforchat.com/articles/chatgpt-plus-daichong-channel-guide-2026)
+- [ChatGPT Plus 续费指南](https://www.payforchat.com/articles/chatgpt-plus-renewal-guide-2026)
+- [Plus 和 Pro 的区别](https://www.payforchat.com/articles/chatgpt-plus-vs-pro-comparison)
+- [GPT 会员等级全解：Free / Go / Plus / Pro / Business](https://www.payforchat.com/articles/gpt-membership-tiers-guide-2026)
+- [Team 和 Plus 的区别](https://www.payforchat.com/articles/chatgpt-team-vs-plus-2026)
+
+## 关于本仓库
+
+- 维护方：PayForChat 团队。PayForChat 是面向国内用户的 ChatGPT / Grok 订阅代充服务，已为 1 万+ 用户完成充值。
+- 关联披露：本指南推荐自家服务；路径对比里其他方案的优缺点按实际情况写。发现错误请提 Issue。
+- 觉得有用请点个 Star，让更多搜"ChatGPT Plus 怎么充值"的人能看到这一页。
+- 协议：[CC BY 4.0](LICENSE)，署名即可转载与改编。
