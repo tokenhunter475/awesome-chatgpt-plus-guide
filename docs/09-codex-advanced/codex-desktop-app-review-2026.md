@@ -15,23 +15,21 @@ updated: 2026-08-20
 
 > 口径:2026 年 2 月桌面版上线后的功能盘点;2026 年 7 月起 Codex 已并入三合一 ChatGPT 桌面 App,本文能力盘点仍然适用。
 
-命令行是开发者的主场,但不是所有人的。Codex 桌面版把「智能体指挥中心」做成了可视化界面——用过之后我的结论:它不只是 CLI 的皮肤,有几样东西 CLI 真没有。
+Codex 桌面版把任务调度做成了可视化界面，不仅是 CLI 的图形封装，还补充了命令行缺少的功能：
 
-先说结论：
-
-1. 桌面版独有:**定时任务(Automations)**——CLI 和 IDE 插件都没有。
-2. 最适合的用法:**多线程并行**——一个查 bug、一个讨论需求、一个跑测试,互不干扰。
-3. 上手成本几乎为零:下载登录即用;限时窗口内免费和 Go 用户也能用。
+1. **定时任务(Automations)**：桌面版独有，CLI 和 IDE 插件都没有。
+2. **多线程并行**：一个查 bug、一个讨论需求、一个跑测试，各任务互不干扰。
+3. **上手门槛低**：下载登录即用；限时窗口内免费和 Go 用户也能用。
 
 ## 三个核心能力
 
-**并行工作流管理。** 同时跑多个独立 Agent 线程,可视化界面让每个任务的状态一目了然。CLI 里要开多个终端窗口才能做到的事,这里点两下就行——对不熟终端的人,这是从「用不了」到「能用」的差别。
+**并行工作流管理。** 支持同时运行多个独立 Agent 线程，可视化界面让每个任务的状态直接呈现。CLI 中需要开启多个终端窗口的操作，在桌面端点击即可完成，降低了非终端用户的使用门槛。
 
-**Skills 可视化管理。** 所有已安装技能集中展示,官方技能库一键安装(技能机制见[Skills 用法](../03-codex-tutorials/codex-skills-guide-2026.md))。代表性的 **Figma Skill**:Codex 直接读 Figma 设计稿,生成 React + Tailwind 代码,还校验是否 1:1 还原——设计稿转代码的完整链路(场景见[多模态工作流](../04-multimodal-creation/multimodal-workflow-2026.md))。
+**Skills 可视化管理。** 已安装技能集中展示，并支持从官方技能库一键安装（技能机制见[Skills 用法](../03-codex-tutorials/codex-skills-guide-2026.md)）。例如 **Figma Skill**：Codex 直接读取 Figma 设计稿，生成 React + Tailwind 代码，并校验是否 1:1 还原（场景见[多模态工作流](../04-multimodal-creation/multimodal-workflow-2026.md)）。
 
-**定时任务(Automations)。** 桌面版独有。让 Codex 定时自动执行任务,官方模板直接能用的有:
+**定时任务(Automations)。** 桌面版独有，可按设定时间自动执行任务。官方提供的开箱模板包括：
 
-| 模板 | 干什么 |
+| 模板 | 功能 |
 |---|---|
 | 扫描最近提交 | 检查 24h 内 commit,找潜在 bug |
 | 生成周报 | 从已合并 PR 生成 release notes |
@@ -41,27 +39,27 @@ updated: 2026-08-20
 
 ## 和 Claude Code 桌面侧怎么比
 
-实测体感:Codex 桌面版侧重**项目级的任务编排和可视化管理**;Claude Code 在 IDE 集成和代码编辑深度上更强。两边都支持 Skills 和 MCP,选择看你的工作习惯——喜欢看板式管理选前者,泡在编辑器里选后者(横评见[工具对比](../01-models-and-tools/ai-coding-tools-comparison-2026.md))。
+Codex 桌面版侧重**项目级的任务编排和可视化管理**；Claude Code 在 IDE 集成和代码编辑深度上更强。两款工具都支持 Skills 和 MCP。选择主要看工作习惯：偏好看板式管理的选前者，习惯常驻编辑器的选后者（横评见[工具对比](../01-models-and-tools/ai-coding-tools-comparison-2026.md)）。
 
 ## 装谁、注意什么
 
-- 下载:**macOS(Apple Silicon)用官方 DMG,Windows 走 Microsoft Store**(认准 OpenAI 官方,别搜第三方站)
-- 注意 2026 年 7 月的变化:Codex 已并入三合一 ChatGPT 桌面 App——装新 App 就包含 Codex 模式,旧的独立版本别再装(见[ChatGPT Work 解读](../08-chatgpt-deep-dive/chatgpt-work-explained-2026.md))
-- 限时福利类信息(免费档开放、付费限额翻倍)以官方实时公告为准,窗口随时变
+- 下载途径：**macOS(Apple Silicon)用官方 DMG,Windows 走 Microsoft Store**（认准 OpenAI 官方渠道）。
+- 2026 年 7 月版本变动：Codex 已并入三合一 ChatGPT 桌面 App，安装新 App 即可使用 Codex 模式，无需再装旧独立版本（见[ChatGPT Work 解读](../08-chatgpt-deep-dive/chatgpt-work-explained-2026.md)）。
+- 免费档开放、付费限额翻倍等限时规则，以官方实时公告为准。
 
 ## FAQ
 
 Q: 桌面版和 CLI 冲突吗?
 
-A: 不冲突,共享登录态。桌面版管并行和定时任务,CLI 管精细控制,混用是常规姿势。
+A: 不冲突，两者共享登录态。桌面版负责并行任务和定时任务，CLI 负责精细控制，两者常搭配使用。
 
 Q: 定时任务会消耗额度吗?
 
-A: 会,自动任务和手动任务走同一个用量池——挂定时任务前算一下频率,别让它在半夜悄悄烧额度([额度机制](../03-codex-tutorials/codex-usage-limits-2026.md))。
+A: 会。自动化任务与手动任务共用用量池，配置定时任务前建议预估执行频率，避免额度过快耗尽（[额度机制](../03-codex-tutorials/codex-usage-limits-2026.md)）。
 
 Q: 不写代码的人值得装吗?
 
-A: 值得试——可视化界面 + 官方技能库,是「不碰终端也能用 Agent」的最低门槛入口(配合[入门篇](../03-codex-tutorials/codex-getting-started-2026.md)服用)。
+A: 值得尝试。图形界面搭配官方技能库，是不碰终端使用 Agent 的最低门槛途径（可参考[入门篇](../03-codex-tutorials/codex-getting-started-2026.md)）。
 
 ## 相关阅读
 

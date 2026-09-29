@@ -15,32 +15,32 @@ updated: 2026-08-20
 
 > CLI 子命令随版本迭代较快，以 `codex --help` 实际输出为准；本文 2026 年 8 月更新。
 
-Codex CLI 是 OpenAI 官方的终端编程工具：进到项目目录里启动，用自然语言描述需求，它直接读代码、改文件、跑命令。这篇把安装、登录、日常用法和已知坑一次讲完。
+Codex CLI 是 OpenAI 官方的终端编程工具：进入项目目录启动后，用自然语言描述需求，工具会直接读取代码、修改文件并执行命令。
 
-简单来说：
+核心概括：
 
-1. **Mac/Linux**：一行官方脚本装完（`curl -fsSL https://chatgpt.com/codex/install.sh | sh`），最省事。
-2. **Windows**：可以装，但原生沙箱还是实验性状态，**官方推荐跑在 WSL2 里**，体验等同 Linux。
-3. **登录**用 ChatGPT 账号（免费账号也能登录，模型和额度跟着套餐走）；CLI 和 IDE 插件共享登录态，登录一次两边通用。
+1. **Mac/Linux**：运行官方脚本安装（`curl -fsSL https://chatgpt.com/codex/install.sh | sh`）。
+2. **Windows**：原生沙箱处于实验状态，**官方推荐在 WSL2 中运行**，体验与 Linux 一致。
+3. **登录**：使用 ChatGPT 账号（免费账号也支持，模型和额度取决于套餐）；CLI 与 IDE 插件共享登录态。
 
 ## 开始前：两个前置条件
 
-**Node.js 22+。** Codex CLI 基于 Node 运行，版本不够会装失败或运行报错。先跑 `node -v` 确认，低于 22 就去 [nodejs.org](https://nodejs.org/) 升级（Windows 下 .msi 安装包一路下一步；Mac/Linux 可用 nvm）。
+**Node.js 22+。** Codex CLI 基于 Node 运行，版本不足会导致安装失败或运行报错。先运行 `node -v` 检查，低于 22 需要到 [nodejs.org](https://nodejs.org/) 升级（Windows 可用 .msi 安装包，Mac/Linux 可用 nvm）。
 
-**登录方式二选一。** 这决定了额度从哪扣：
+**登录方式二选一。** 决定了额度扣除方式：
 
 | 登录方式 | 适合谁 | 计费 |
 |---|---|---|
 | ChatGPT 账号登录 | 个人用户（推荐） | 走订阅额度，无独立计费 |
 | API Key | 团队 / CI 场景 | 按 token 计费，需 API 账户余额 |
 
-套餐档位和额度的关系（免费账号可用轻量档，Plus 解锁旗舰档）见 [Codex 和 GPT 的区别](codex-vs-gpt-difference-2026.md)。
+套餐档位和额度的对应关系（免费账号支持轻量档，Plus 支持旗舰档）见 [Codex 和 GPT 的区别](codex-vs-gpt-difference-2026.md)。
 
 ## 安装
 
 ### Mac / Linux
 
-**方式 1：官方脚本（推荐，自动选对架构）**
+**方式 1：官方脚本（推荐，自动匹配架构）**
 
 ```bash
 curl -fsSL https://chatgpt.com/codex/install.sh | sh
@@ -52,19 +52,19 @@ curl -fsSL https://chatgpt.com/codex/install.sh | sh
 npm install -g @openai/codex
 ```
 
-国内网络慢，加镜像源：
+国内网络较慢可指定镜像源：
 
 ```bash
 npm install -g @openai/codex --registry=https://registry.npmmirror.com
 ```
 
-**方式 3：Homebrew（有坑）**
+**方式 3：Homebrew（注意）**
 
 ```bash
 brew install --cask codex
 ```
 
-已知坑：cask 在部分环境装的是**桌面 App 而不是 CLI**——装完终端里没有 `codex` 命令就是中招了，别折腾 brew，换 npm 或官方脚本装即可。
+注意：Homebrew cask 在部分环境下安装的是**桌面 App 而非 CLI**。如果安装后终端找不到 `codex` 命令，改用 npm 或官方脚本安装。
 
 ### Windows
 
@@ -80,36 +80,34 @@ powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1
 winget install OpenAI.Codex
 ```
 
-**Windows 用户必读**：Codex 在原生 Windows 上用 AppContainer 沙箱，默认限制文件写入和网络访问，官方截至发稿仍标注实验性。稳定跑法是 **WSL2**：
+**Windows 环境说明**：Codex 在原生 Windows 上运行依赖 AppContainer 沙箱，默认限制文件写入与网络访问，官方仍标记为实验特性。生产使用建议选择 **WSL2**：
 
-1. 装好 WSL2 + Ubuntu
-2. 在 WSL 里按 Mac/Linux 方式安装
-3. 仓库放在 Linux 家目录（如 `~/projects/`），不要放 `/mnt/c/...`——跨文件系统性能差一大截
+1. 安装 WSL2 + Ubuntu
+2. 在 WSL 中按 Mac/Linux 流程安装
+3. 将项目仓库放在 Linux 家目录（如 `~/projects/`），避免放在 `/mnt/c/...` 跨文件系统挂载路径以防性能下降
 
-### 两个通用坑
+### 两个通用注意事项
 
-- **npm 包名必须带 scope**：是 `@openai/codex`。npm 上不带 scope 的 `codex` 是 2012 年的无关老包，装错不报错但完全不是这个东西。
-- 装完验证：`codex --version` 有版本号输出才算装对。
-
-坑这块多说一句：上面这些翻车点没一个是编的，全是社区里一遍遍被问的问题。装的时候撞上别慌——大家都撞过，撞上反而说明路子是对的。
+- **npm 包名必须带 scope**：包名为 `@openai/codex`。不带 scope 的 `codex` 是 2012 年发布的无关包。
+- **安装验证**：运行 `codex --version`，正常输出版本号即安装成功。
 
 ## 登录授权
 
-进入常用目录，直接运行：
+进入项目目录运行：
 
 ```bash
 cd ~/your-project
 codex
 ```
 
-首次运行会引导浏览器登录 ChatGPT 账号（没自动打开就手动复制终端里的链接）。登录成功后，Codex 会询问当前目录的工作权限：
+首次运行会引导打开浏览器登录 ChatGPT 账号（若未自动打开可复制终端输出的 URL）。登录成功后，Codex 会请求当前目录的操作权限：
 
-- **选项 1**：允许直接修改目录下文件、执行命令，过程中不再逐条确认
-- **选项 2**：任何修改和命令执行前都要求手动确认
+- **选项 1**：允许直接修改目录下文件、执行命令，过程不逐条确认
+- **选项 2**：修改文件或执行命令前均需手动确认
 
-日常自己项目选 1 省事；重要项目选 2 稳妥。授权后 token 自动保存到 `~/.codex/` 目录，下次启动不用重复登录。
+个人项目选 1 更快捷；重要项目选 2 确认安全。授权凭证保存在 `~/.codex/` 目录，后续启动无需重复登录。
 
-**API Key 用户**：在 `~/.codex/auth.json` 里填入 `{"OPENAI_API_KEY": "sk-..."}` 即可，不需要浏览器登录。
+**API Key 用户**：在 `~/.codex/auth.json` 中配置 `{"OPENAI_API_KEY": "sk-..."}` 即可跳过浏览器登录。
 
 ## 常用命令速查
 
@@ -141,17 +139,17 @@ codex
 | `codex --model <名称>` | 临时指定模型（可用列表以 `/model` 显示为准） |
 | `codex --help` | 查看全部参数 |
 
-另有一个 `--dangerously-bypass-approvals-and-sandbox` 参数会跳过所有确认并禁用沙箱——只建议在一次性测试环境用，生产项目慎用。
+参数 `--dangerously-bypass-approvals-and-sandbox` 会跳过所有确认并禁用沙箱，仅适用于一次性隔离测试环境。
 
 ## 实用技巧
 
-**进项目目录再启动。** Codex 自动读取当前目录的代码上下文，`cd` 到项目根目录再跑 `codex`，提问不用重复交代背景。
+**进入项目根目录启动。** Codex 会读取当前目录上下文，先 `cd` 到根目录再执行 `codex`，无需手动提供项目背景。
 
-**报错直接截图贴进去。** Codex 是多模态模型，能读截图里的报错文字和界面，直接分析原因给修复方案。
+**直接粘贴报错截图。** 模型具备多模态能力，可识别截图中的报错文本和界面并提供修复方案。
 
-**长任务交给云端。** 终端会话适合快速迭代；跨多文件的大重构可以在网页版（chatgpt.com/codex）提交云任务异步跑，本地和云端共享同一份额度。
+**长耗时任务使用云端。** 终端适合交互迭代；跨多文件的大型重构可在网页版（chatgpt.com/codex）提交异步任务，本地与云端共用额度。
 
-**代理设置（网络超时看这里）。** 登录后一直 thinking 或连接超时，多半是网络问题：
+**代理环境变量配置。** 若登录后停留在 thinking 或出现连接超时：
 
 ```bash
 export HTTPS_PROXY=http://127.0.0.1:7890
@@ -159,7 +157,7 @@ export HTTP_PROXY=http://127.0.0.1:7890
 codex
 ```
 
-把 `7890` 换成你自己的代理端口。
+将 `7890` 替换为实际代理端口。
 
 ## 高频问题排查表
 
@@ -176,23 +174,23 @@ codex
 
 Q: Codex CLI 免费吗？
 
-A: 工具免费。ChatGPT 账号登录即可使用，免费账号也能跑（轻量模型、额度有限）；更高模型档位和额度随 Plus/Pro 套餐解锁。也可以改用 API Key 按 token 计费。
+A: 工具本身免费。使用 ChatGPT 账号登录即可使用，免费账号包含轻量模型额度；更高级的模型档位和额度需要 Plus/Pro 订阅。也可以使用 API Key 按 token 计费。
 
-Q: CLI 和 VS Code 插件要分别登录吗？
+Q: CLI 和 VS Code 插件需要分别登录吗？
 
-A: 不用。两者共享登录态和会话，终端里开的任务可以在 IDE 里接着看。
+A: 不需要。两者共享登录态与会话，终端发起的任务可在 IDE 插件中继续查看。
 
-Q: 为什么官方推荐 Windows 用户用 WSL2？
+Q: 为什么官方推荐 Windows 用户使用 WSL2？
 
-A: 原生 Windows 的 AppContainer 沙箱仍是实验性，限制文件写入和网络。WSL2 下体验等同 Linux，注意仓库放 Linux 家目录，别放 `/mnt/c/` 路径。
+A: 原生 Windows 依赖的 AppContainer 沙箱属于实验状态，会限制文件与网络访问。WSL2 环境与 Linux 表现一致；需注意将代码放置在 Linux 原生文件系统，不要使用 `/mnt/c/` 路径。
 
 Q: Codex 和 Claude Code 选哪个？
 
-A: 侧重代码审查、要低门槛（ChatGPT 账号直接用）选 Codex；追求响应速度、能接受较高账号门槛的可以试 Claude Code。两者定位对比见 [Codex 和 GPT 的区别](codex-vs-gpt-difference-2026.md)。
+A: 需要低门槛接入（直接使用 ChatGPT 账号）或重度依赖代码审查可选 Codex；更注重响应速度可考虑 Claude Code。对比细节参考 [Codex 和 GPT 的区别](codex-vs-gpt-difference-2026.md)。
 
-Q: 用量突然变得特别快是为什么？
+Q: 为什么用量消耗比预期快？
 
-A: 2026 年 4 月起用量按 token 计算，大仓库长任务消耗天然高；另外本地和云端共享额度。完整机制和排查见 [Codex 用量上限说明](codex-usage-limits-2026.md)。
+A: 2026 年 4 月起用量按 token 消耗统计，大型仓库或长对话消耗更快；本地与云端任务共享统一额度。规则见 [Codex 用量上限说明](codex-usage-limits-2026.md)。
 
 ## 参考来源
 

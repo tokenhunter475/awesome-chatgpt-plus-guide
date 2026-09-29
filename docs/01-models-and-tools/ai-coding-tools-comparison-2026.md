@@ -15,20 +15,20 @@ updated: 2026-08-20
 
 > 工具版本迭代快，能力评价为 2026 年 8 月社区共识口径；选型建议按自己的账号条件和任务类型代入。
 
-2026 年的 AI 编程工具已经分成了两种物种：**编辑器内置型**（Cursor、Gemini 集成在 IDE/编辑器里）和**终端 Agent 型**（Codex CLI、Claude Code 在命令行独立干活）。这篇按五个维度横评，结论是：没有全能王，按任务和账号条件选。
+2026 年的 AI 编程工具主要分为两类：**编辑器内置型**（Cursor、IDE 里的 Gemini）和**终端 Agent 型**（Codex CLI、Claude Code）。本文按五个维度横评：没有全能工具，主要看任务需求和账号条件。
 
-如果你只想看结论：
+核心结论：
 
-1. **要低门槛、要稳**：Codex——ChatGPT 账号直接登录，免费账号也能用，代码审查是公认强项。
-2. **要上限、能折腾**：Claude Code——能力强、响应快，但账号风控严，国内获取门槛高。
-3. **要在编辑器里补全和对话**：Cursor；**前端和设计相关**：Gemini 有独到优势。
-4. 成熟开发者的主流姿势是**组合使用**：一个主力 + 一个审查/备用。
+1. **低门槛、求稳**：Codex。ChatGPT 账号直接登录，免费账号可用，代码审查是公认强项。
+2. **要上限、能折腾**：Claude Code。能力强、响应快，但账号风控严，国内获取门槛高。
+3. **编辑器内补全和对话**选 Cursor；**前端和设计相关**选 Gemini。
+4. 成熟开发者通常**组合使用**：一个主力 + 一个审查或备用。
 
-## 先分清两种物种
+## 两种工具形态
 
-**编辑器内置型**（Cursor、IDE 里的 Gemini/Copilot 类）：你在写代码，它在光标处辅助——补全、解释选中代码、对话框问答。工作流仍由你推进。
+**编辑器内置型**（Cursor、IDE 里的 Gemini/Copilot 类）：人在写代码，它在光标处辅助补全、解释选中代码、处理对话框问答，工作流由人推进。
 
-**终端 Agent 型**（Codex CLI、Claude Code）：你说目标，它自己读仓库、改文件、跑命令、验证结果。工作流交给 Agent 推进，你验收。（两种物种的区别原理见 [AI 与 Agent 怎么选](../00-ai-fundamentals/ai-vs-agent-how-to-choose-2026.md)。）
+**终端 Agent 型**（Codex CLI、Claude Code）：给出目标，它自己读仓库、改文件、跑命令、验证结果。工作流由 Agent 推进，人负责验收。（两者的区别原理见 [AI 与 Agent 怎么选](../00-ai-fundamentals/ai-vs-agent-how-to-choose-2026.md)。）
 
 ## 五维度横评
 
@@ -42,26 +42,26 @@ updated: 2026-08-20
 
 ## 各自的最佳场景
 
-**Codex：** 代码审查（分析严谨是社区共识强项）、跨文件长任务、需要账号稳的场景。审查和额度机制见 [Codex 代码审查实战](../03-codex-tutorials/codex-code-review-2026.md)和[用量上限说明](../03-codex-tutorials/codex-usage-limits-2026.md)。短板：响应速度偏慢（严谨的代价）。
+**Codex：** 适合代码审查（分析严谨是公认强项）、跨文件长任务、需要账号稳定的场景。审查和额度机制见 [Codex 代码审查实战](../03-codex-tutorials/codex-code-review-2026.md)和[用量上限说明](../03-codex-tutorials/codex-usage-limits-2026.md)。短板是响应速度偏慢。
 
-**Claude Code：** 主力开发、快速迭代、复杂重构。能力上限高。短板：账号风控——这是选它之前必须正视的风险（见 [Claude 与 Claude Code](claude-and-claude-code-2026.md)）。
+**Claude Code：** 适合主力开发、快速迭代与复杂重构，能力上限高。短板是账号风控较严，选用前需要考虑封号风险（见 [Claude 与 Claude Code](claude-and-claude-code-2026.md)）。
 
-**Cursor：** 习惯编辑器工作流的开发者——补全质量高、多模型可切、学习成本最低。短板：Agent 能力相对弱于两个终端工具；部分用户反馈在 Cursor 里调 Codex 模型走 API 计费而不是 ChatGPT 订阅额度，成本要分清。
+**Cursor：** 适合习惯编辑器工作流的开发者。代码补全质量高、支持切换多模型、学习成本低。短板是 Agent 能力相对弱于两款终端工具；另外在 Cursor 里调用 Codex 模型走 API 计费，不走 ChatGPT 订阅额度，计费方式需要区分清楚。
 
-**Gemini：** 前端设计、UI 相关开发有独到优势（社区对它的前端产出评价高），Google 生态集成好。短板：作为通用编程主力的口碑弱于前两者。
+**Gemini：** 前端设计与 UI 相关开发产出评价高，Google 生态集成好。短板是作为通用编程主力的口碑弱于 Codex 和 Claude Code。
 
-## 按人群给方案
+## 选型建议
 
-- **学生/轻度**：免费额度起步（Codex 免费档 + Cursor 免费档），先跑起来再谈付费。
-- **在职开发者**：ChatGPT Plus（含 Codex）做主力 + 审查；有条件再加 Claude Code 拉上限。
-- **重度 Agent 用户**：评估 Plus/Pro 档位（额度 5-20 倍差距）与按量 API 的成本线，见[DeepSeek 涨价解读](deepseek-api-price-hike-2026.md)里的算账方法。
-- **前端**：Gemini 做界面 + 任一终端 Agent 做逻辑。
+- **学生/轻度用户**：先用免费额度（Codex 免费档 + Cursor 免费档），跑顺流程再考虑付费。
+- **在职开发者**：ChatGPT Plus（含 Codex）做主力与审查；网络和账号条件允许可加 Claude Code 提高上限。
+- **重度 Agent 用户**：评估 Plus/Pro 档位（额度相差 5-20 倍）与按量 API 的成本线，参考[DeepSeek 涨价解读](deepseek-api-price-hike-2026.md)里的核算方法。
+- **前端开发者**：Gemini 做界面 + 任一终端 Agent 负责业务逻辑。
 
 ## FAQ
 
 Q: 只选一个选哪个？
 
-A: 国内用户从 Codex 起步最顺：门槛低、账号稳、免费能试。等确认需要更高上限，再考虑加 Claude Code。
+A: 国内用户从 Codex 起步最顺：门槛低、账号稳、免费能试。确认需要更高上限后，再考虑加 Claude Code。
 
 Q: Cursor 里的 Codex 模型和 Codex CLI 是一回事吗？
 
@@ -69,11 +69,11 @@ A: 不是。Cursor 里填 API Key 调用模型走 API 计费；Codex CLI 用 Cha
 
 Q: 这些工具会互相取代吗？
 
-A: 短期不会。能力矩阵不同（审查/速度/补全/前端），2026 年的实际趋势是组合使用。
+A: 短期不会。能力各有侧重（审查/速度/补全/前端），2026 年的实际趋势是组合使用。
 
 Q: 零基础能直接用终端 Agent 吗？
 
-A: 需要先会基本终端操作（cd、运行命令）。门槛不在 AI，在命令行。入门见 [Codex CLI 使用教程](../03-codex-tutorials/codex-cli-tutorial-2026.md)。
+A: 需要先掌握基本终端操作（cd、运行命令）。门槛不在 AI，在命令行使用。入门见 [Codex CLI 使用教程](../03-codex-tutorials/codex-cli-tutorial-2026.md)。
 
 ## 相关阅读
 

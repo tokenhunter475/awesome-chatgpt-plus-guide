@@ -15,13 +15,13 @@ updated: 2026-08-20
 
 > 插件市场名称和界面随版本变化，以各市场实际搜索结果为准；本文 2026 年 8 月更新。
 
-不习惯终端的话，IDE 插件是 Codex 最顺手的形态——侧边栏对话、选中代码直接问、和 CLI 共享会话。这篇覆盖四个主流环境的安装和各自的坑。
+IDE 插件支持侧边栏对话、选中代码直接提问，并与 CLI 共享会话。以下覆盖四个主流环境的安装与配置注意事项。
 
-懒得看全文？重点就这几条：
+要点：
 
-1. **VS Code / Cursor / Windsurf**：扩展市场搜官方插件装完登录即用，默认进入 Agent 模式。
-2. **JetBrains 全家桶**（IntelliJ / PyCharm / WebStorm 等）：官方插件市场有，支持三种登录方式。
-3. 装完插件和 CLI **只需登录一次**——登录态和会话两边共享。
+1. **VS Code / Cursor / Windsurf**：在扩展市场安装官方插件并登录，默认进入 Agent 模式。
+2. **JetBrains 全家桶**（IntelliJ / PyCharm / WebStorm 等）：在官方插件市场安装，支持三种登录方式。
+3. 插件与 CLI **只需登录一次**，两端共享登录态与会话。
 
 ## VS Code / Cursor / Windsurf
 
@@ -30,20 +30,20 @@ updated: 2026-08-20
 **使用**：
 
 - 侧边栏对话：和 CLI 交互一致，默认 Agent 模式（可读文件、跑命令、改代码）
-- **选中代码快速提问**：选中一段代码 → 右键 → Ask Codex → 针对选中内容回答——这是日常使用频率最高的入口
+- **选中代码快速提问**：选中一段代码 → 右键 → Ask Codex → 针对选中内容回答
 - 会话互通：终端里 `codex` 开的任务，IDE 里能看到进度；反之亦然
 
-**Cursor 用户专属坑**：Cursor 的活动栏默认横向排列，装完插件可能看不到 Codex 图标——去折叠项里找，或手动 pin 出来。别以为装失败了。
+**Cursor 图标显示**：Cursor 的活动栏默认横向排列，装完插件若看不到 Codex 图标，可在折叠项中查找，或手动 pin 到活动栏。
 
-**另一个 Cursor 注意点**：在 Cursor 对话框里直接切换「Codex 模型」走的是 **OpenAI API 计费**（需要在设置里填 API Key），不是 ChatGPT 订阅额度；装 Codex 插件才是走订阅。两笔账别混。
+**Cursor 计费差异**：在 Cursor 对话框里直接切换「Codex 模型」走 **OpenAI API 计费**（需在设置中填 API Key），不消耗 ChatGPT 订阅额度；安装 Codex 插件才走订阅。
 
 ## JetBrains 全家桶
 
-IntelliJ IDEA、PyCharm、WebStorm、Rider 等通用：**JetBrains 插件市场**搜 Codex 安装。鉴权方式三种可选：ChatGPT 账号登录（推荐个人用户）、API Key、JetBrains AI 订阅。
+IntelliJ IDEA、PyCharm、WebStorm、Rider 等通用：在 **JetBrains 插件市场**搜 Codex 安装。鉴权方式有三种可选：ChatGPT 账号登录（推荐个人用户）、API Key、JetBrains AI 订阅。
 
 ## Opencode 集成
 
-Opencode 是开源客户端，支持用 ChatGPT 账号登录使用 Codex 的订阅和额度——对想在第三方客户端里用订阅的用户是个选择。
+Opencode 是开源客户端，支持通过 ChatGPT 账号登录以使用 Codex 的订阅和额度。
 
 流程（以桌面版为例）：官网 opencode.ai 下载客户端 → 添加项目 → 对话框输入 `/model` 选模型 → 点「连接供应商」→ 选 OpenAI → 跳转 ChatGPT 登录授权 → 完成后即可管理模型。不同系统版本的界面略有差异（macOS 部分版本没有「添加模型」按钮，走连接供应商路径），以实际界面为准。
 
@@ -56,25 +56,25 @@ Opencode 是开源客户端，支持用 ChatGPT 账号登录使用 Codex 的订�
 | 登录后一直 thinking | 网络问题 | 给终端/编辑器设置代理（方法见 [CLI 教程](codex-cli-tutorial-2026.md)的代理段） |
 | 插件里看不到 GPT-5.6 系列 | 客户端版本旧 | 更新插件和 CLI 到最新版 |
 
-地区限制报错的补充：如果代理配置总是搞不定，改用 Codex CLI 或插件（而不是在 Cursor 对话框里切模型）通常更稳——它们走官方登录通道而不是 API 通道。
+关于地区限制：若代理配置持续报错，改用 Codex CLI 或插件（而非在 Cursor 对话框中切换模型）通常更稳，二者走官方登录通道而非 API 通道。
 
 ## FAQ
 
 Q: 插件和 CLI 同时装会冲突吗？
 
-A: 不会，互补。共享登录态和会话，装一对是官方推荐组合。
+A: 不会。两者共享登录态与会话，同时安装是官方推荐用法。
 
 Q: 插件要单独付费吗？
 
-A: 不用。插件是 Codex 的形态之一，跟随你的 ChatGPT 账号权限（免费可用轻量档，Plus 解锁完整能力）。
+A: 不用。插件直接使用当前 ChatGPT 账号的权限（免费可用轻量档，Plus 解锁完整能力）。
 
 Q: Vim / Neovim 有插件吗？
 
-A: 以官方文档列出的支持范围为准；Vim 用户常用做法是配合 CLI 使用（终端里两者天然亲和）。
+A: 以官方文档列出的支持范围为准；常用做法是在终端中配合 CLI 使用。
 
 Q: IDE 插件的权限怎么控制？
 
-A: 和 CLI 一致的审批机制（`/approvals`），可设置哪些操作自动执行、哪些需要确认。重要项目开确认模式。
+A: 采用与 CLI 相同的审批机制（`/approvals`），可设置哪些操作自动执行、哪些需要确认。重要项目建议开启确认模式。
 
 ## 相关阅读
 
