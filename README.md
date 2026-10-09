@@ -1,16 +1,24 @@
-# ChatGPT Plus 国内怎么充值？没海外卡用微信 / 支付宝开通 Plus、Pro、Codex（2026 年 9 月核实）
+# ChatGPT Plus 国内怎么充值？没海外卡用微信 / 支付宝开通 Plus、Pro、Codex（2026 年 10 月核实）
 
-> 信息最后核实：**2026-09-29**。本仓库由 [PayForChat](https://www.payforchat.com/?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) 团队维护。PayForChat 是独立第三方充值服务，与 OpenAI 没有隶属、代理或授权关系。文中不写人民币价格，以套餐页实时标价为准。
+> 信息最后核实：**2026-10-09**。本仓库由 [PayForChat](https://www.payforchat.com/?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) 团队维护。PayForChat 是独立第三方充值服务，与 OpenAI 没有隶属、代理或授权关系。文中不写人民币价格，以套餐页实时标价为准。
 
 没有海外信用卡、想把 ChatGPT Plus 或 Pro 开到**自己的账号**上：微信或支付宝付款，付完贴一次临时登录凭证（不是密码），Plus 一般 1–3 分钟到账，充值失败全额退款。
 
 | 你想做什么 | 直接去 |
 |---|---|
+| 还没有 ChatGPT 账号 | [ChatGPT 怎么注册：邮箱怎么选、逐屏截图](https://www.payforchat.com/articles/chatgpt-register-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
 | 开通 Plus / Pro / Grok | [套餐页](https://www.payforchat.com/plans?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
 | 先看完整下单流程 | [ChatGPT Plus 购买完整指南](https://www.payforchat.com/articles/chatgpt-plus-buy-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
 | 用 Codex，或 Codex 额度不够 | [Codex 代充指南](https://www.payforchat.com/articles/codex-recharge-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide) |
 | 已付款，查进度、提工单、下载 Invoice | [用户中心](https://www.payforchat.com/dashboard) |
 | 公司采购、批量开通 | [团队采购](https://www.payforchat.com/team-purchase) |
+
+## 零、还没有 ChatGPT 账号？先注册，约 5 分钟
+
+- 只要一个能收信的邮箱，不需要手机号。有 Gmail 的在 chatgpt.com 点「使用 Google 账户继续」一步完成；没有的用 QQ 邮箱、163 邮箱也能注册，很多用户就这么用。Outlook / Hotmail 和买来的「成品邮箱」不要用。
+- 注册和登录是同一个入口：chatgpt.com 右上角「免费注册」。记住自己用的是哪种方式（Google 还是邮箱），以后每台设备都用同一种。
+- 邮箱怎么选、每一步截图、收不到验证码等报错怎么处理、注册完怎么开两步验证，见 [ChatGPT 怎么注册（2026 图文教程）](https://www.payforchat.com/articles/chatgpt-register-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide)。
+- 充值的前提是账号当前没有在期订阅，刚注册的免费账号直接能办。
 
 ## 一、三步完成充值
 
@@ -22,17 +30,18 @@
 
 全程在 payforchat.com 完成，不用加客服微信。2026-09-29 实测当天 3 笔 Plus 订单，付款到到账 2–4 分钟。
 
-## 二、Plus、Pro 5X、Pro 20X 怎么选
+## 二、Plus、Pro 100、Pro 200、Pro 500 怎么选
 
 | 套餐 | OpenAI 官方价 | 适合谁 | 现在能不能开 | 到账 |
 |---|---|---|---|---|
 | Plus | $20 / 月 | 日常对话、写作、学习，普通强度的 Codex | 能 | 1–3 分钟 |
-| Pro 5X | $100 / 月 | Plus 额度经常不够、个人高频 Codex、长文档和深度研究 | 能 | 以订单页提示为准 |
-| Pro 20X | $200 / 月 | 全天重度、多项目并行的 Codex 用户 | 仅续费或到期回归 | 人工办理，通常 1–3 小时 |
+| Pro 100（原 Pro 5X） | $100 / 月 | Plus 额度经常不够、个人高频 Codex、长文档和深度研究 | 能 | 以订单页提示为准 |
+| Pro 200（原 Pro 20X） | $200 / 月 | 全天重度、多项目并行的 Codex 用户 | 能，2026-09-30 起恢复新购 | 正常短时间内完成，高峰期预计 1 小时内 |
+| Pro 500 | $500 / 月 | 要 Astra Ultrafast，或 Pro 200 的用量还不够 | 能，2026-10-08 起 | 以订单页提示为准 |
 
-- **Pro 20X 的现状。** OpenAI 自 2026-09-10 起暂停 20X 新购，从没开过的账号现在开不了。原 20X 订阅可以续费；近期失去 20X 的账号，到期后 30 天内有一次回归机会。你属于哪种、怎么判断，见 [Pro 20X 新购暂停：到期 30 天内可回归一次](https://www.payforchat.com/articles/chatgpt-pro-20x-200-new-subscription-paused-2026)。
-- **Plus 不能补差价升 Pro。** Pro 充值要求账号处于普通状态，等 Plus 到期后再开，或用一个干净的新账号开。
-- **Codex 额度随套餐附带，不能单独买。** 5X 和 20X 差多少、值不值，见 [Pro 5X vs 20X 对比](https://www.payforchat.com/articles/chatgpt-pro-5x-vs-20x-comparison)；Codex 提示"已达到使用上限"怎么办，见[这篇](https://www.payforchat.com/articles/codex-usage-limit-reached-fix-2026)。
+- **档位改名了。** OpenAI 自 2026-09-29 起把两档 Pro 改称 Pro 100、Pro 200，并新增 Pro 500；Pro 200 同时恢复新购，新订阅的 Work / Codex 用量约为 Plus 的 10 倍。此前「暂停新购、到期 30 天内回归一次」的规则已失效。办理条件见 [Pro 200 说明](https://www.payforchat.com/pro-20x) 和 [Pro 500 说明](https://www.payforchat.com/pro-500)。
+- **三档的前提一样：账号当前没有在期订阅。** 从没开过，或 Plus / Pro 已到期、变回普通账号的都能办；在期账号提交会在付款前被拦下，不扣款。Plus 不能补差价升 Pro，等到期后再开，或用一个干净的新账号开。
+- **Codex 额度随套餐附带，不能单独买。** 三档用量差多少、值不值，见 [Pro 100 / 200 / 500 怎么选](https://www.payforchat.com/articles/chatgpt-pro-100-200-500-comparison-2026)；Codex 提示"已达到使用上限"怎么办，见[这篇](https://www.payforchat.com/articles/codex-usage-limit-reached-fix-2026)。
 - **Grok** 的 SuperGrok / Super Heavy 也在同一个套餐页开通，见 [Grok 充值](https://www.payforchat.com/grok?utm_source=github&utm_medium=readme&utm_campaign=plus-guide)。
 
 ## 三、国内开 Plus 的四条路，为什么大多数人最后选代充
@@ -67,7 +76,7 @@
 代充是一次性充值，到期自动停止，不会扣你的钱。如果你之前在官网绑过卡：chatgpt.com → 左下角头像 → My plan → Manage my subscription → Cancel plan，当前周期内照常使用。
 
 **之前在 App Store 内购过的账号能代充吗？**
-内购过 Pro 20X 的账号，续费和回归都要在苹果那边操作，PayForChat 办不了。Plus 先联系客服确认，别直接下单。
+苹果内购的订阅还在有效期内时，续费、取消都在苹果那边操作，PayForChat 办不了；等它到期、账号变回普通状态后，和普通账号一样可以在 PayForChat 办理。拿不准先联系客服，别直接下单。
 
 **充值失败、掉订阅怎么算？**
 充值失败全额原路退款，联系客服或提工单即可。充值成功后因平台原因导致订阅中断，按已使用天数折算部分退款。因 OpenAI 政策原因被封禁的情形按[服务条款](https://www.payforchat.com/terms)处理。
@@ -82,6 +91,7 @@
 
 | 日期 | 核对内容 |
 |---|---|
+| 2026-10-09 | 套餐页在售：Plus、Pro 100、Pro 200（9-30 起恢复新购）、Pro 500（10-08 上架）、Grok Super 与 Super Heavy；两档 Pro 已按 OpenAI 9-29 的新名称改写。新增「还没有账号先注册」一节，注册步骤按当日 chatgpt.com 页面核对。 |
 | 2026-09-29 | 套餐页在售：Plus 1 / 2 / 3 个月与年卡、Pro 5X、Grok Super 与 Super Heavy；Pro 20X 仅续费或到期回归。实测当天 3 笔 Plus 订单，付款到到账 2–4 分钟。支付方式：微信、支付宝、Stripe 信用卡。 |
 | 2026-09-20 | OpenAI 补充 Pro 20X「到期 30 天内一次性回归」规则，站内文章同步更新。 |
 | 2026-09-10 | OpenAI 暂停 Pro 20X 新订阅，本指南 Pro 部分改为"仅续费或回归"。 |
@@ -96,6 +106,7 @@
 - [ChatGPT Plus 续费指南](https://www.payforchat.com/articles/chatgpt-plus-renewal-guide-2026)
 - [Plus 和 Pro 的区别](https://www.payforchat.com/articles/chatgpt-plus-vs-pro-comparison) · [Team 和 Plus 的区别](https://www.payforchat.com/articles/chatgpt-team-vs-plus-2026)
 - [GPT 会员等级全解：Free / Go / Plus / Pro / Business](https://www.payforchat.com/articles/gpt-membership-tiers-guide-2026)
+- [ChatGPT 怎么注册：邮箱怎么选、每一步截图、注册完先开两步验证](https://www.payforchat.com/articles/chatgpt-register-guide-2026?utm_source=github&utm_medium=readme&utm_campaign=plus-guide)
 - 仓库 [docs/](docs/) 里另有 82 篇中文教程，从 AI 基础、ChatGPT 上手到 Codex 进阶，和充值无关。
 
 ## 关于本仓库
