@@ -1,6 +1,6 @@
 # 教程目录
 
-按主题分 11 组，共 82 篇中文教程，2026 年 8 月写成、9 月核对。零基础从 00 开始顺读；只关心 Codex 直接看 03 和 09；付费相关看 02、08、12。返回[仓库首页](../README.md)。
+按主题分类整理中文教程。各篇核对日期见文首；充值与售后指南于 2026-10-29 更新，其他历史文章中的产品信息请结合当前官方资料阅读。零基础从 00 开始顺读；只关心 Codex 直接看 03 和 09；付费相关看 02、08、12。返回[仓库首页](../README.md)。
 
 ## 00 AI 基础
 
@@ -85,7 +85,7 @@
 | 文章 | 讲什么 |
 |---|---|
 | [ChatGPT 变笨了？降智自救](08-chatgpt-deep-dive/chatgpt-degraded-what-to-do-2026.md) | 降智机制、自查五步、缓解手段 |
-| [Plus 显示 Free？状态异常排查](08-chatgpt-deep-dive/chatgpt-plus-showing-free-fix-2026.md) | 四种原因与排查路线图 |
+| [Plus 显示 Free？状态异常排查](08-chatgpt-deep-dive/chatgpt-plus-showing-free-fix-2026.md) | 核对账号、订单进度与实际订阅 |
 | [Session Token 是什么](08-chatgpt-deep-dive/chatgpt-session-token-explained-2026.md) | 凭证原理、获取、安全铁律 |
 | [Codex 额度不够用？三条路算账](08-chatgpt-deep-dive/codex-quota-supplement-guide-2026.md) | 加购/升级/按量的决策公式 |
 | [ChatGPT Pro 5X/20X 深度评测](08-chatgpt-deep-dive/chatgpt-pro-5x-20x-for-codex-2026.md) | 两档实测数据与判断标准 |
@@ -137,7 +137,10 @@
 
 | 文章 | 讲什么 |
 |---|---|
-| [ChatGPT Plus 充值教程（2026 国内版）：4 条路径实测对比](12-recharge-guides/chatgpt-plus-recharge-guide-2026.md) | Stripe 风控机制、四路径横评、避坑清单 |
+| [ChatGPT Plus / Pro 充值：选套餐到确认到账](12-recharge-guides/chatgpt-plus-recharge-guide-2026.md) | 先确认账号再付款、套餐与售后入口 |
+| [银行卡支付申请与优惠券](12-recharge-guides/payforchat-payment-methods-2026.md) | 申请开通、刷新付款页、核对应付金额 |
+| [订阅查询与充值资格自查](12-recharge-guides/chatgpt-subscription-check-2026.md) | 账号、到期日、无法充值与查询失败 |
+| [Business 席位与多账号采购](12-recharge-guides/chatgpt-business-bulk-purchase-2026.md) | 两种交付方式、需求准备和 Invoice |
 
 ## 归档
 
